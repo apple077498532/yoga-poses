@@ -1,0 +1,722 @@
+[
+  {
+    "id": "tadasana",
+    "file": "tadasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "virabhadrasana-i",
+    "file": "virabhadrasana-i.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "virabhadrasana-ii",
+    "file": "virabhadrasana-ii.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "virabhadrasana-iii",
+    "file": "virabhadrasana-iii.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "trikonasana",
+    "file": "trikonasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "parivrtta-trikonasana",
+    "file": "parivrtta-trikonasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "parsvakonasana",
+    "file": "parsvakonasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "parivrtta-parsvakonasana",
+    "file": "parivrtta-parsvakonasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "utkatasana",
+    "file": "utkatasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "vrksasana",
+    "file": "vrksasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "garudasana",
+    "file": "garudasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "natarajasana",
+    "file": "natarajasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ardha-chandrasana",
+    "file": "ardha-chandrasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "uttanasana",
+    "file": "uttanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ardha-uttanasana",
+    "file": "ardha-uttanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "padangusthasana",
+    "file": "padangusthasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "prasarita-padottanasana",
+    "file": "prasarita-padottanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "parsvottanasana",
+    "file": "parsvottanasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "adho-mukha-svanasana",
+    "file": "adho-mukha-svanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "urdhva-mukha-svanasana",
+    "file": "urdhva-mukha-svanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "bhujangasana",
+    "file": "bhujangasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "salabhasana",
+    "file": "salabhasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "dhanurasana",
+    "file": "dhanurasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "urdhva-dhanurasana",
+    "file": "urdhva-dhanurasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ustrasana",
+    "file": "ustrasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "setu-bandha-sarvangasana",
+    "file": "setu-bandha-sarvangasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "matsyasana",
+    "file": "matsyasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "dandasana",
+    "file": "dandasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "paschimottanasana",
+    "file": "paschimottanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "baddha-konasana",
+    "file": "baddha-konasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "janu-sirsasana",
+    "file": "janu-sirsasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "upavistha-konasana",
+    "file": "upavistha-konasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "gomukhasana",
+    "file": "gomukhasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "virasana",
+    "file": "virasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "supta-virasana",
+    "file": "supta-virasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "vajrasana",
+    "file": "vajrasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "padmasana",
+    "file": "padmasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ardha-padmasana",
+    "file": "ardha-padmasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "sukhasana",
+    "file": "sukhasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "siddhasana",
+    "file": "siddhasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "ardha-matsyendrasana",
+    "file": "ardha-matsyendrasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "marichyasana-i",
+    "file": "marichyasana-i.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "marichyasana-ii",
+    "file": "marichyasana-ii.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "marichyasana-iii",
+    "file": "marichyasana-iii.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "marichyasana-iv",
+    "file": "marichyasana-iv.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "bharadvajasana",
+    "file": "bharadvajasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "supta-matsyendrasana",
+    "file": "supta-matsyendrasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "sirsasana",
+    "file": "sirsasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "sarvangasana",
+    "file": "sarvangasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "halasana",
+    "file": "halasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "pincha-mayurasana",
+    "file": "pincha-mayurasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "adho-mukha-vrksasana",
+    "file": "adho-mukha-vrksasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "viparita-karani",
+    "file": "viparita-karani.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "savasana",
+    "file": "savasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "supta-padangusthasana",
+    "file": "supta-padangusthasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "supta-baddha-konasana",
+    "file": "supta-baddha-konasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ananda-balasana",
+    "file": "ananda-balasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "apanasana",
+    "file": "apanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "bakasana",
+    "file": "bakasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "parsva-bakasana",
+    "file": "parsva-bakasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "astavakrasana",
+    "file": "astavakrasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "tittibhasana",
+    "file": "tittibhasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "bhujapidasana",
+    "file": "bhujapidasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "eka-pada-koundinyanasana-i",
+    "file": "eka-pada-koundinyanasana-i.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "eka-pada-koundinyanasana-ii",
+    "file": "eka-pada-koundinyanasana-ii.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "mayurasana",
+    "file": "mayurasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "tolasana",
+    "file": "tolasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "lolasana",
+    "file": "lolasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "chaturanga-dandasana",
+    "file": "chaturanga-dandasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "vasisthasana",
+    "file": "vasisthasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "phalakasana",
+    "file": "phalakasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "navasana",
+    "file": "navasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ardha-navasana",
+    "file": "ardha-navasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "malasana",
+    "file": "malasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "balasana",
+    "file": "balasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "marjaryasana-bitilasana",
+    "file": "marjaryasana-bitilasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "simhasana",
+    "file": "simhasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "eka-pada-rajakapotasana",
+    "file": "eka-pada-rajakapotasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "kapotasana",
+    "file": "kapotasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "agnistambhasana",
+    "file": "agnistambhasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "hanumanasana",
+    "file": "hanumanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "kurmasana",
+    "file": "kurmasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "supta-kurmasana",
+    "file": "supta-kurmasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "krounchasana",
+    "file": "krounchasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "parighasana",
+    "file": "parighasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "anjaneyasana",
+    "file": "anjaneyasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ashta-chandrasana",
+    "file": "ashta-chandrasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "parivrtta-anjaneyasana",
+    "file": "parivrtta-anjaneyasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "ashtanga-namaskara",
+    "file": "ashtanga-namaskara.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "makara-adho-mukha-svanasana",
+    "file": "makara-adho-mukha-svanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "uttana-shishosana",
+    "file": "uttana-shishosana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "sasangasana",
+    "file": "sasangasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "supta-konasana",
+    "file": "supta-konasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "karnapidasana",
+    "file": "karnapidasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "salamba-bhujangasana",
+    "file": "salamba-bhujangasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ardha-bhekasana",
+    "file": "ardha-bhekasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "bhekasana",
+    "file": "bhekasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "makarasana",
+    "file": "makarasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "purvottanasana",
+    "file": "purvottanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "camatkarasana",
+    "file": "camatkarasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "urdhva-mukha-paschimottanasana",
+    "file": "urdhva-mukha-paschimottanasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "ubhaya-padangusthasana",
+    "file": "ubhaya-padangusthasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "dwi-pada-sirsasana",
+    "file": "dwi-pada-sirsasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "galavasana",
+    "file": "galavasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "svarga-dvijasana",
+    "file": "svarga-dvijasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "utthita-hasta-padangusthasana",
+    "file": "utthita-hasta-padangusthasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "parivrtta-ardha-chandrasana",
+    "file": "parivrtta-ardha-chandrasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "pasasana",
+    "file": "pasasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "jathara-parivartanasana",
+    "file": "jathara-parivartanasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "padahastasana",
+    "file": "padahastasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "urdhva-hastasana",
+    "file": "urdhva-hastasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "utkata-konasana",
+    "file": "utkata-konasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "skandasana",
+    "file": "skandasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "chakravakasana",
+    "file": "chakravakasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "eka-pada-rajakapotasana-prep",
+    "file": "eka-pada-rajakapotasana-prep.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "matsyendrasana",
+    "file": "matsyendrasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "parivrtta-utkatasana",
+    "file": "parivrtta-utkatasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "dwi-pada-viparita-dandasana",
+    "file": "dwi-pada-viparita-dandasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "urdhva-prasarita-eka-padasana",
+    "file": "urdhva-prasarita-eka-padasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "parivrtta-janu-sirsasana",
+    "file": "parivrtta-janu-sirsasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "triang-mukhaikapada-paschimottanasana",
+    "file": "triang-mukhaikapada-paschimottanasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "ardha-baddha-padma-paschimottanasana",
+    "file": "ardha-baddha-padma-paschimottanasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "utthan-pristhasana",
+    "file": "utthan-pristhasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "ardha-hanumanasana",
+    "file": "ardha-hanumanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "visvamitrasana",
+    "file": "visvamitrasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "urdhva-prasarita-padasana",
+    "file": "urdhva-prasarita-padasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "matsyasana-padmasana",
+    "file": "matsyasana-padmasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "prarthanasana",
+    "file": "prarthanasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "ardha-baddha-padmottanasana",
+    "file": "ardha-baddha-padmottanasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "yoga-nidrasana",
+    "file": "yoga-nidrasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "parsva-dhanurasana",
+    "file": "parsva-dhanurasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "supta-trivikramasana",
+    "file": "supta-trivikramasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "goraksasana",
+    "file": "goraksasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "eka-pada-viparita-dandasana",
+    "file": "eka-pada-viparita-dandasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "supta-padmasana",
+    "file": "supta-padmasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "ardha-pincha-mayurasana",
+    "file": "ardha-pincha-mayurasana.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "surya-namaskar-a",
+    "file": "surya-namaskar-a.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "surya-namaskar-b",
+    "file": "surya-namaskar-b.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "salabhasana-b",
+    "file": "salabhasana-b.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "supta-padangusthasana-b",
+    "file": "supta-padangusthasana-b.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "savasana-bolster",
+    "file": "savasana-bolster.svg",
+    "confidence": "high"
+  },
+  {
+    "id": "naukasana",
+    "file": "naukasana.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "utthita-parsvasahita",
+    "file": "utthita-parsvasahita.svg",
+    "confidence": "low"
+  },
+  {
+    "id": "ashwa-sanchalanasana",
+    "file": "ashwa-sanchalanasana.svg",
+    "confidence": "high"
+  }
+]
