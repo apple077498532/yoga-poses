@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瑜伽体式排序器 | Yoga Sequence Builder</title>
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --sand-50: #fdf8f0;
+  --sand-100: #f5ebe0;
+  --sand-200: #e8d5c0;
+  --sand-300: #d4b896;
+  --sand-400: #c09b6e;
+  --sand-500: #a67c52;
+  --sand-600: #8b6340;
+  --sand-700: #6e4d32;
+  --sand-800: #4a3322;
+  --earth-500: #7c6856;
+  --earth-600: #5e4d3e;
+  --earth-700: #3e3229;
+  --sage-100: #e8ede6;
+  --sage-200: #cdd8c8;
+  --sage-400: #8fa584;
+  --sage-500: #6b8a5e;
+  --sage-600: #537348;
+  --terracotta-400: #c97b5b;
+  --terracotta-500: #b5654a;
+  --terracotta-600: #9a4f38;
+  --warm-white: #fefcf9;
+  --text-primary: #3a2e25;
+  --text-secondary: #6e5d4e;
+  --text-muted: #9a8b7c;
+  --shadow-sm: 0 1px 3px rgba(74,51,34,0.08);
+  --shadow-md: 0 4px 12px rgba(74,51,34,0.1);
+  --shadow-lg: 0 8px 24px rgba(74,51,34,0.12);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+html { font-size: 16px; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  background: var(--sand-50);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, var(--earth-600) 0%, var(--earth-700) 100%);
+  color: var(--sand-100);
+  padding: 1.25rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-lg);
+}
+
+.header h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.header h1 small {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-left: 0.5rem;
+}
+
+/* Search */
+.search-section {
+  padding: 1rem 1.5rem;
+  background: var(--warm-white);
+  border-bottom: 1px solid var(--sand-200);
+  position: sticky;
+  top: 60px;
+  z-index: 90;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.7rem 1rem 0.7rem 2.6rem;
+  border: 2px solid var(--sand-200);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  background: var(--sand-50);
+  color: var(--text-primary);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--sage-400);
+  box-shadow: 0 0 0 3px rgba(107,138,94,0.15);
+}
+
+.search-wrapper {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+/* Category Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.filter-btn {
+  padding: 0.3rem 0.7rem;
+  border: 1.5px solid var(--sand-300);
+  border-radius: 999px;
+  background: var(--warm-white);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.filter-btn:hover {
+  border-color: var(--sage-400);
+  color: var(--sage-600);
+}
+
+.filter-btn.active {
+  background: var(--sage-500);
+  border-color: var(--sage-500);
+  color: white;
+}
+
+/* Main Layout */
+.main {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.library-panel {
+  flex: 1;
+  min-width: 0;
+}
+
+.sequence-panel {
+  width: 340px;
+  flex-shrink: 0;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--earth-600);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-title .count {
+  background: var(--sand-200);
+  color: var(--earth-600);
+  font-size: 0.75rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+/* Pose Library Grid */
+.pose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+
+.pose-card {
+  background: var(--warm-white);
+  border: 1.5px solid var(--sand-200);
+  border-radius: var(--radius-md);
+  padding: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+  user-select: none;
+}
+
+.pose-card:hover {
+  border-color: var(--sage-400);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.pose-card:active {
+  transform: translateY(0);
+}
+
+.pose-card .pose-icon {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+  display: block;
+  line-height: 1.3;
+}
+
+.pose-card .pose-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.pose-card .pose-zh {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.pose-card .pose-en {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+  line-height: 1.3;
+}
+
+.pose-card .pose-cat {
+  font-size: 0.65rem;
+  color: var(--sage-500);
+  margin-top: 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.pose-card-added {
+  animation: card-pulse 0.3s ease;
+}
+
+@keyframes card-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(107,138,94,0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(107,138,94,0); }
+  100% { box-shadow: 0 0 0 0 rgba(107,138,94,0); }
+}
+
+/* Sequence Panel */
+.sequence-container {
+  background: var(--warm-white);
+  border: 1.5px solid var(--sand-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.sequence-header {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--sand-200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--sand-100);
+}
+
+.sequence-header .title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sequence-header h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--earth-600);
+}
+
+.sequence-header .pose-count {
+  background: var(--terracotta-500);
+  color: white;
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.sequence-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.btn-sm {
+  padding: 0.35rem 0.65rem;
+  border: 1.5px solid var(--sand-300);
+  border-radius: var(--radius-sm);
+  background: var(--warm-white);
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.btn-sm:hover {
+  border-color: var(--sage-400);
+  color: var(--sage-600);
+}
+
+.btn-sm.btn-copy {
+  background: var(--sage-500);
+  border-color: var(--sage-500);
+  color: white;
+}
+
+.btn-sm.btn-copy:hover {
+  background: var(--sage-600);
+  border-color: var(--sage-600);
+}
+
+.btn-sm.btn-danger:hover {
+  border-color: var(--terracotta-500);
+  color: var(--terracotta-500);
+}
+
+/* Sequence List */
+.sequence-list {
+  min-height: 120px;
+  padding: 0.5rem;
+  list-style: none;
+}
+
+.sequence-list:empty::after {
+  content: "点击体式卡片添加到序列";
+  display: block;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.sequence-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 0.75rem;
+  margin: 0.3rem 0;
+  background: var(--sand-50);
+  border: 1.5px solid var(--sand-200);
+  border-radius: var(--radius-sm);
+  cursor: grab;
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.sequence-item:hover {
+  border-color: var(--sand-400);
+  background: var(--sand-100);
+}
+
+.sequence-item:active {
+  cursor: grabbing;
+}
+
+.sequence-item .drag-handle {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.sequence-item .seq-number {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--terracotta-500);
+  min-width: 1.3rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.sequence-item .seq-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.sequence-item .seq-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.sequence-item .seq-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.sequence-item .seq-zh {
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.sequence-item .seq-en {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  line-height: 1.2;
+}
+
+.sequence-item .seq-remove {
+  width: 1.6rem;
+  height: 1.6rem;
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.sequence-item .seq-remove:hover {
+  background: var(--terracotta-400);
+  color: white;
+}
+
+/* SortableJS ghost */
+.sortable-ghost {
+  opacity: 0.4;
+}
+
+.sortable-chosen {
+  box-shadow: var(--shadow-md);
+}
+
+/* Empty state */
+.empty-library {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+}
+
+.empty-library p {
+  font-size: 0.9rem;
+}
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: var(--earth-700);
+  color: var(--sand-100);
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
+  z-index: 200;
+  pointer-events: none;
+}
+
+.toast.show {
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .sequence-panel {
+    width: 100%;
+  }
+
+  .pose-grid {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 0.6rem;
+  }
+
+  .pose-card {
+    padding: 0.7rem;
+  }
+
+  .pose-card .pose-icon {
+    font-size: 1.6rem;
+  }
+
+  .pose-card .pose-icon img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .pose-card .pose-zh {
+    font-size: 0.82rem;
+  }
+
+  .pose-card .pose-en {
+    font-size: 0.65rem;
+  }
+
+  .header {
+    padding: 1rem 1.25rem;
+  }
+
+  .header h1 {
+    font-size: 1.15rem;
+  }
+
+  .search-section {
+    padding: 0.75rem 1rem;
+    top: 52px;
+  }
+
+  .filters {
+    gap: 0.35rem;
+  }
+
+  .filter-btn {
+    font-size: 0.72rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .sequence-actions {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .pose-grid {
+    grid-template-columns: repeat(auto-fill, minmax(95px, 1fr));
+  }
+}
+
+/* Animations */
+.seq-enter {
+  animation: seq-slide-in 0.25s ease;
+}
+
+@keyframes seq-slide-in {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <h1>瑜伽体式排序器 <small>Yoga Sequence Builder</small></h1>
+</header>
+
+<div class="search-section">
+  <div class="search-wrapper">
+    <span class="search-icon">&#x1F50D;&#xFE0E;</span>
+    <input type="text" class="search-input" id="searchInput" placeholder="搜索体式 / Search poses / Sanskrit...">
+  </div>
+  <div class="filters" id="filters"></div>
+</div>
+
+<main class="main">
+  <div class="library-panel">
+    <div class="section-title">
+      体式库 <span style="font-size:0.8rem;color:var(--text-muted);font-weight:400;">Pose Library</span>
+      <span class="count" id="libraryCount">0</span>
+    </div>
+    <div class="pose-grid" id="poseGrid"></div>
+    <div class="empty-library" id="emptyLibrary" style="display:none;">
+      <p>没有找到匹配的体式</p>
+    </div>
+  </div>
+
+  <div class="sequence-panel">
+    <div class="sequence-container">
+      <div class="sequence-header">
+        <div class="title-group">
+          <h2>我的序列</h2>
+          <span class="pose-count" id="seqCount">0</span>
+        </div>
+        <div class="sequence-actions">
+          <button class="btn-sm btn-copy" id="btnCopy" title="复制为文字列表">复制</button>
+          <button class="btn-sm btn-danger" id="btnClear" title="清空序列">清空</button>
+        </div>
+      </div>
+      <ul class="sequence-list" id="sequenceList"></ul>
+    </div>
+  </div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function() {
+  'use strict';
+
+  const CATEGORY_EMOJI = {
+    'standing': '\u{1F9CD}',
+    'seated': '\u{1F9D8}',
+    'supine': '\u{1F634}',
+    'prone': '\u{1F938}',
+    'inversion': '\u{1F643}',
+    'balance': '\u{1F9A9}',
+    'twist': '\u{1F300}',
+    'backbend': '\u{1F308}',
+    'forward-fold': '\u{1F647}',
+    'arm-balance': '\u{1F4AA}'
+  };
+
+  const CATEGORY_LABELS = {
+    'standing': '站立',
+    'seated': '坐姿',
+    'supine': '仰卧',
+    'prone': '俯卧',
+    'inversion': '倒立',
+    'balance': '平衡',
+    'twist': '扭转',
+    'backbend': '后弯',
+    'forward-fold': '前屈',
+    'arm-balance': '手臂平衡'
+  };
+
+  const CATEGORIES = ['standing','seated','supine','prone','inversion','balance','twist','backbend','forward-fold','arm-balance'];
+
+  let allPoses = [];
+  let sequence = [];
+  let activeFilters = new Set();
+  let searchQuery = '';
+  let sortable = null;
+
+  // DOM refs
+  const poseGrid = document.getElementById('poseGrid');
+  const sequenceList = document.getElementById('sequenceList');
+  const searchInput = document.getElementById('searchInput');
+  const filtersEl = document.getElementById('filters');
+  const libraryCount = document.getElementById('libraryCount');
+  const seqCount = document.getElementById('seqCount');
+  const emptyLibrary = document.getElementById('emptyLibrary');
+  const btnCopy = document.getElementById('btnCopy');
+  const btnClear = document.getElementById('btnClear');
+  const toastEl = document.getElementById('toast');
+
+  // Toast
+  let toastTimer;
+  function showToast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toastEl.classList.remove('show'), 2000);
+  }
+
+  // Icon helper
+  function poseIconHTML(pose, size) {
+    if (pose.svg) {
+      const w = size === 'sm' ? 24 : 48;
+      return '<img src="svg/' + pose.svg + '" width="' + w + '" height="' + w + '" alt="" loading="lazy">';
+    }
+    return CATEGORY_EMOJI[pose.category] || '';
+  }
+
+  // Init filters
+  function initFilters() {
+    CATEGORIES.forEach(cat => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.textContent = CATEGORY_LABELS[cat];
+      btn.dataset.cat = cat;
+      btn.addEventListener('click', () => {
+        if (activeFilters.has(cat)) {
+          activeFilters.delete(cat);
+          btn.classList.remove('active');
+        } else {
+          activeFilters.add(cat);
+          btn.classList.add('active');
+        }
+        renderLibrary();
+      });
+      filtersEl.appendChild(btn);
+    });
+  }
+
+  // Filter poses
+  function getFilteredPoses() {
+    return allPoses.filter(p => {
+      if (activeFilters.size > 0 && !activeFilters.has(p.category)) return false;
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        return p.zh.includes(q) ||
+               p.en.toLowerCase().includes(q) ||
+               p.sanskrit.toLowerCase().includes(q);
+      }
+      return true;
+    });
+  }
+
+  // Render library
+  function renderLibrary() {
+    const filtered = getFilteredPoses();
+    poseGrid.innerHTML = '';
+    emptyLibrary.style.display = filtered.length === 0 ? '' : 'none';
+    libraryCount.textContent = filtered.length;
+
+    filtered.forEach(pose => {
+      const card = document.createElement('div');
+      card.className = 'pose-card';
+      card.dataset.id = pose.id;
+      card.innerHTML =
+        '<span class="pose-icon">' + poseIconHTML(pose, 'lg') + '</span>' +
+        '<div class="pose-zh">' + pose.zh + '</div>' +
+        '<div class="pose-en">' + pose.en + '</div>' +
+        '<div class="pose-cat">' + CATEGORY_LABELS[pose.category] + '</div>';
+      card.addEventListener('click', () => addToSequence(pose.id, card));
+      poseGrid.appendChild(card);
+    });
+  }
+
+  // Add to sequence
+  function addToSequence(poseId, cardEl) {
+    const pose = allPoses.find(p => p.id === poseId);
+    if (!pose) return;
+    sequence.push(poseId);
+    saveSequence();
+    renderSequence();
+
+    if (cardEl) {
+      cardEl.classList.remove('pose-card-added');
+      void cardEl.offsetWidth;
+      cardEl.classList.add('pose-card-added');
+    }
+  }
+
+  // Remove from sequence
+  function removeFromSequence(index) {
+    sequence.splice(index, 1);
+    saveSequence();
+    renderSequence();
+  }
+
+  // Render sequence
+  function renderSequence() {
+    sequenceList.innerHTML = '';
+    seqCount.textContent = sequence.length;
+
+    sequence.forEach((poseId, i) => {
+      const pose = allPoses.find(p => p.id === poseId);
+      if (!pose) return;
+
+      const li = document.createElement('li');
+      li.className = 'sequence-item seq-enter';
+      li.dataset.index = i;
+      li.innerHTML =
+        '<span class="drag-handle">\u2630</span>' +
+        '<span class="seq-number">' + (i + 1) + '</span>' +
+        '<span class="seq-icon">' + poseIconHTML(pose, 'sm') + '</span>' +
+        '<div class="seq-info">' +
+          '<div class="seq-zh">' + pose.zh + '</div>' +
+          '<div class="seq-en">' + pose.en + '</div>' +
+        '</div>' +
+        '<button class="seq-remove" title="移除">&times;</button>';
+
+      li.querySelector('.seq-remove').addEventListener('click', (e) => {
+        e.stopPropagation();
+        removeFromSequence(i);
+      });
+
+      sequenceList.appendChild(li);
+    });
+
+    initSortable();
+  }
+
+  // SortableJS
+  function initSortable() {
+    if (sortable) sortable.destroy();
+    sortable = new Sortable(sequenceList, {
+      animation: 180,
+      handle: '.drag-handle',
+      ghostClass: 'sortable-ghost',
+      chosenClass: 'sortable-chosen',
+      onEnd: function(evt) {
+        const item = sequence.splice(evt.oldIndex, 1)[0];
+        sequence.splice(evt.newIndex, 0, item);
+        saveSequence();
+        renderSequence();
+      }
+    });
+  }
+
+  // Persistence
+  function saveSequence() {
+    try { localStorage.setItem('yoga-sequence', JSON.stringify(sequence)); } catch(e) {}
+  }
+
+  function loadSequence() {
+    try {
+      const data = localStorage.getItem('yoga-sequence');
+      if (data) sequence = JSON.parse(data);
+    } catch(e) { sequence = []; }
+  }
+
+  // Copy
+  btnCopy.addEventListener('click', () => {
+    if (sequence.length === 0) {
+      showToast('序列为空');
+      return;
+    }
+    const text = sequence.map((id, i) => {
+      const p = allPoses.find(x => x.id === id);
+      return (i + 1) + '. ' + (p ? p.zh + ' (' + p.en + ')' : id);
+    }).join('\n');
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(() => showToast('已复制到剪贴板'));
+    } else {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      showToast('已复制到剪贴板');
+    }
+  });
+
+  // Clear
+  btnClear.addEventListener('click', () => {
+    if (sequence.length === 0) return;
+    if (confirm('确定要清空序列吗？')) {
+      sequence = [];
+      saveSequence();
+      renderSequence();
+      showToast('序列已清空');
+    }
+  });
+
+  // Search
+  searchInput.addEventListener('input', () => {
+    searchQuery = searchInput.value.trim();
+    renderLibrary();
+  });
+
+  // Init
+  async function init() {
+    initFilters();
+    loadSequence();
+
+    try {
+      const res = await fetch('poses.json');
+      allPoses = await res.json();
+    } catch(e) {
+      poseGrid.innerHTML = '<div class="empty-library"><p>无法加载体式数据</p></div>';
+      return;
+    }
+
+    // Filter out any saved poses that no longer exist
+    sequence = sequence.filter(id => allPoses.some(p => p.id === id));
+
+    renderLibrary();
+    renderSequence();
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>

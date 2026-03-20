@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "tadasana",
+    "sanskrit": "Tāḍāsana",
+    "chinese": "山式",
+    "english": "Mountain Pose",
+    "aliases": ["Samasthiti"],
+    "category": "standing",
+    "tags": ["beginner", "foundation", "alignment"],
+    "svg": null
+  },
+  {
+    "id": "virabhadrasana-i",
+    "sanskrit": "Vīrabhadrāsana I",
+    "chinese": "戰士一式",
+    "english": "Warrior I",
+    "aliases": [],
+    "category": "standing",
+    "tags": ["beginner", "strength", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "virabhadrasana-ii",
+    "sanskrit": "Vīrabhadrāsana II",
+    "chinese": "戰士二式",
+    "english": "Warrior II",
+    "aliases": [],
+    "category": "standing",
+    "tags": ["beginner", "strength", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "virabhadrasana-iii",
+    "sanskrit": "Vīrabhadrāsana III",
+    "chinese": "戰士三式",
+    "english": "Warrior III",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["intermediate", "strength", "balance"],
+    "svg": null
+  },
+  {
+    "id": "trikonasana",
+    "sanskrit": "Trikoṇāsana",
+    "chinese": "三角式",
+    "english": "Triangle Pose",
+    "aliases": ["Utthita Trikoṇāsana"],
+    "category": "standing",
+    "tags": ["beginner", "lateral-stretch", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "parivrtta-trikonasana",
+    "sanskrit": "Parivrtta Trikoṇāsana",
+    "chinese": "扭轉三角式",
+    "english": "Revolved Triangle Pose",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["intermediate", "twist", "balance"],
+    "svg": null
+  },
+  {
+    "id": "parsvakonasana",
+    "sanskrit": "Pārśvakoṇāsana",
+    "chinese": "側角式",
+    "english": "Extended Side Angle Pose",
+    "aliases": ["Utthita Pārśvakoṇāsana"],
+    "category": "standing",
+    "tags": ["beginner", "lateral-stretch", "strength"],
+    "svg": null
+  },
+  {
+    "id": "parivrtta-parsvakonasana",
+    "sanskrit": "Parivrtta Pārśvakoṇāsana",
+    "chinese": "扭轉側角式",
+    "english": "Revolved Side Angle Pose",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["intermediate", "twist", "strength"],
+    "svg": null
+  },
+  {
+    "id": "utkatasana",
+    "sanskrit": "Utkaṭāsana",
+    "chinese": "幻椅式",
+    "english": "Chair Pose",
+    "aliases": ["Fierce Pose"],
+    "category": "standing",
+    "tags": ["beginner", "strength", "quadriceps"],
+    "svg": null
+  },
+  {
+    "id": "vrksasana",
+    "sanskrit": "Vṛkṣāsana",
+    "chinese": "樹式",
+    "english": "Tree Pose",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["beginner", "balance", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "garudasana",
+    "sanskrit": "Garuḍāsana",
+    "chinese": "鷹式",
+    "english": "Eagle Pose",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["intermediate", "balance", "shoulder-opener"],
+    "svg": null
+  },
+  {
+    "id": "natarajasana",
+    "sanskrit": "Naṭarājāsana",
+    "chinese": "舞王式",
+    "english": "Lord of the Dance Pose",
+    "aliases": ["Dancer Pose"],
+    "category": "balance",
+    "tags": ["advanced", "balance", "backbend"],
+    "svg": null
+  },
+  {
+    "id": "ardha-chandrasana",
+    "sanskrit": "Ardha Candrāsana",
+    "chinese": "半月式",
+    "english": "Half Moon Pose",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["intermediate", "balance", "lateral-stretch"],
+    "svg": null
+  },
+  {
+    "id": "uttanasana",
+    "sanskrit": "Uttānāsana",
+    "chinese": "站立前彎式",
+    "english": "Standing Forward Bend",
+    "aliases": [],
+    "category": "forward-fold",
+    "tags": ["beginner", "hamstring-stretch", "calming"],
+    "svg": null
+  },
+  {
+    "id": "ardha-uttanasana",
+    "sanskrit": "Ardha Uttānāsana",
+    "chinese": "半站立前彎式",
+    "english": "Half Standing Forward Bend",
+    "aliases": ["Flat Back"],
+    "category": "forward-fold",
+    "tags": ["beginner", "spinal-extension", "foundation"],
+    "svg": null
+  },
+  {
+    "id": "padangusthasana",
+    "sanskrit": "Pādāṅguṣṭhāsana",
+    "chinese": "手抓腳趾站立前彎式",
+    "english": "Big Toe Pose",
+    "aliases": [],
+    "category": "forward-fold",
+    "tags": ["beginner", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "prasarita-padottanasana",
+    "sanskrit": "Prasārita Pādottānāsana",
+    "chinese": "雙腿展開前彎式",
+    "english": "Wide-Legged Standing Forward Bend",
+    "aliases": [],
+    "category": "forward-fold",
+    "tags": ["beginner", "hamstring-stretch", "inversion-prep"],
+    "svg": null
+  },
+  {
+    "id": "parsvottanasana",
+    "sanskrit": "Pārśvottānāsana",
+    "chinese": "加強側伸展式",
+    "english": "Intense Side Stretch Pose",
+    "aliases": ["Pyramid Pose"],
+    "category": "forward-fold",
+    "tags": ["intermediate", "hamstring-stretch", "balance"],
+    "svg": null
+  },
+  {
+    "id": "adho-mukha-svanasana",
+    "sanskrit": "Adho Mukha Śvānāsana",
+    "chinese": "下犬式",
+    "english": "Downward-Facing Dog",
+    "aliases": ["Down Dog"],
+    "category": "standing",
+    "tags": ["beginner", "foundation", "full-body-stretch"],
+    "svg": null
+  },
+  {
+    "id": "urdhva-mukha-svanasana",
+    "sanskrit": "Ūrdhva Mukha Śvānāsana",
+    "chinese": "上犬式",
+    "english": "Upward-Facing Dog",
+    "aliases": ["Up Dog"],
+    "category": "backbend",
+    "tags": ["beginner", "backbend", "chest-opener"],
+    "svg": null
+  },
+  {
+    "id": "bhujangasana",
+    "sanskrit": "Bhujaṅgāsana",
+    "chinese": "眼鏡蛇式",
+    "english": "Cobra Pose",
+    "aliases": [],
+    "category": "backbend",
+    "tags": ["beginner", "backbend", "chest-opener"],
+    "svg": null
+  },
+  {
+    "id": "salabhasana",
+    "sanskrit": "Śalabhāsana",
+    "chinese": "蝗蟲式",
+    "english": "Locust Pose",
+    "aliases": [],
+    "category": "prone",
+    "tags": ["beginner", "back-strengthening"],
+    "svg": null
+  },
+  {
+    "id": "dhanurasana",
+    "sanskrit": "Dhanurāsana",
+    "chinese": "弓式",
+    "english": "Bow Pose",
+    "aliases": [],
+    "category": "prone",
+    "tags": ["intermediate", "backbend", "chest-opener"],
+    "svg": null
+  },
+  {
+    "id": "urdhva-dhanurasana",
+    "sanskrit": "Ūrdhva Dhanurāsana",
+    "chinese": "輪式",
+    "english": "Upward Bow Pose",
+    "aliases": ["Wheel Pose", "Cakrāsana"],
+    "category": "backbend",
+    "tags": ["intermediate", "backbend", "full-body"],
+    "svg": null
+  },
+  {
+    "id": "ustrasana",
+    "sanskrit": "Uṣṭrāsana",
+    "chinese": "駱駝式",
+    "english": "Camel Pose",
+    "aliases": [],
+    "category": "backbend",
+    "tags": ["intermediate", "backbend", "chest-opener"],
+    "svg": null
+  },
+  {
+    "id": "setu-bandha-sarvangasana",
+    "sanskrit": "Setu Bandha Sarvāṅgāsana",
+    "chinese": "橋式",
+    "english": "Bridge Pose",
+    "aliases": [],
+    "category": "backbend",
+    "tags": ["beginner", "backbend", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "matsyasana",
+    "sanskrit": "Matsyāsana",
+    "chinese": "魚式",
+    "english": "Fish Pose",
+    "aliases": [],
+    "category": "backbend",
+    "tags": ["intermediate", "backbend", "chest-opener"],
+    "svg": null
+  },
+  {
+    "id": "dandasana",
+    "sanskrit": "Daṇḍāsana",
+    "chinese": "手杖式",
+    "english": "Staff Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "foundation", "alignment"],
+    "svg": null
+  },
+  {
+    "id": "paschimottanasana",
+    "sanskrit": "Paścimottānāsana",
+    "chinese": "坐姿前彎式",
+    "english": "Seated Forward Bend",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "hamstring-stretch", "calming"],
+    "svg": null
+  },
+  {
+    "id": "baddha-konasana",
+    "sanskrit": "Baddha Koṇāsana",
+    "chinese": "束角式",
+    "english": "Bound Angle Pose",
+    "aliases": ["Butterfly Pose", "Cobbler's Pose"],
+    "category": "seated",
+    "tags": ["beginner", "hip-opener", "groin-stretch"],
+    "svg": null
+  },
+  {
+    "id": "janu-sirsasana",
+    "sanskrit": "Jānu Śīrṣāsana",
+    "chinese": "頭碰膝式",
+    "english": "Head-to-Knee Forward Bend",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "hamstring-stretch", "asymmetric"],
+    "svg": null
+  },
+  {
+    "id": "upavistha-konasana",
+    "sanskrit": "Upaviṣṭha Koṇāsana",
+    "chinese": "坐角式",
+    "english": "Wide-Angle Seated Forward Bend",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "hamstring-stretch", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "gomukhasana",
+    "sanskrit": "Gomukhāsana",
+    "chinese": "牛面式",
+    "english": "Cow Face Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "shoulder-opener", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "virasana",
+    "sanskrit": "Vīrāsana",
+    "chinese": "英雄式",
+    "english": "Hero Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "quadriceps-stretch", "meditation"],
+    "svg": null
+  },
+  {
+    "id": "supta-virasana",
+    "sanskrit": "Supta Vīrāsana",
+    "chinese": "臥英雄式",
+    "english": "Reclining Hero Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["intermediate", "quadriceps-stretch", "backbend"],
+    "svg": null
+  },
+  {
+    "id": "vajrasana",
+    "sanskrit": "Vajrāsana",
+    "chinese": "金剛坐式",
+    "english": "Thunderbolt Pose",
+    "aliases": ["Diamond Pose"],
+    "category": "seated",
+    "tags": ["beginner", "meditation", "digestion"],
+    "svg": null
+  },
+  {
+    "id": "padmasana",
+    "sanskrit": "Padmāsana",
+    "chinese": "蓮花式",
+    "english": "Lotus Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["advanced", "hip-opener", "meditation"],
+    "svg": null
+  },
+  {
+    "id": "ardha-padmasana",
+    "sanskrit": "Ardha Padmāsana",
+    "chinese": "半蓮花式",
+    "english": "Half Lotus Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "hip-opener", "meditation"],
+    "svg": null
+  },
+  {
+    "id": "sukhasana",
+    "sanskrit": "Sukhāsana",
+    "chinese": "簡易坐式",
+    "english": "Easy Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "meditation", "foundation"],
+    "svg": null
+  },
+  {
+    "id": "siddhasana",
+    "sanskrit": "Siddhāsana",
+    "chinese": "至善坐式",
+    "english": "Adept's Pose",
+    "aliases": ["Accomplished Pose"],
+    "category": "seated",
+    "tags": ["intermediate", "meditation", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "ardha-matsyendrasana",
+    "sanskrit": "Ardha Matsyendrāsana",
+    "chinese": "半魚王式",
+    "english": "Half Lord of the Fishes Pose",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["intermediate", "twist", "spinal-mobility"],
+    "svg": null
+  },
+  {
+    "id": "marichyasana-i",
+    "sanskrit": "Marīcyāsana I",
+    "chinese": "聖哲馬里奇式一",
+    "english": "Pose of the Sage Marichi I",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "forward-fold", "shoulder-opener"],
+    "svg": null
+  },
+  {
+    "id": "marichyasana-ii",
+    "sanskrit": "Marīcyāsana II",
+    "chinese": "聖哲馬里奇式二",
+    "english": "Pose of the Sage Marichi II",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["advanced", "forward-fold", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "marichyasana-iii",
+    "sanskrit": "Marīcyāsana III",
+    "chinese": "聖哲馬里奇式三",
+    "english": "Pose of the Sage Marichi III",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["intermediate", "twist", "spinal-mobility"],
+    "svg": null
+  },
+  {
+    "id": "marichyasana-iv",
+    "sanskrit": "Marīcyāsana IV",
+    "chinese": "聖哲馬里奇式四",
+    "english": "Pose of the Sage Marichi IV",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["advanced", "twist", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "bharadvajasana",
+    "sanskrit": "Bharadvājāsana",
+    "chinese": "巴拉德瓦伽式",
+    "english": "Bharadvaja's Twist",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["intermediate", "twist", "gentle"],
+    "svg": null
+  },
+  {
+    "id": "supta-matsyendrasana",
+    "sanskrit": "Supta Matsyendrāsana",
+    "chinese": "臥姿脊柱扭轉式",
+    "english": "Supine Spinal Twist",
+    "aliases": ["Reclined Twist"],
+    "category": "twist",
+    "tags": ["beginner", "twist", "restorative"],
+    "svg": null
+  },
+  {
+    "id": "sirsasana",
+    "sanskrit": "Śīrṣāsana",
+    "chinese": "頭倒立式",
+    "english": "Headstand",
+    "aliases": ["Sālamba Śīrṣāsana"],
+    "category": "inversion",
+    "tags": ["advanced", "inversion", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "sarvangasana",
+    "sanskrit": "Sarvāṅgāsana",
+    "chinese": "肩倒立式",
+    "english": "Shoulderstand",
+    "aliases": ["Sālamba Sarvāṅgāsana"],
+    "category": "inversion",
+    "tags": ["intermediate", "inversion", "calming"],
+    "svg": null
+  },
+  {
+    "id": "halasana",
+    "sanskrit": "Halāsana",
+    "chinese": "犁式",
+    "english": "Plow Pose",
+    "aliases": [],
+    "category": "inversion",
+    "tags": ["intermediate", "inversion", "calming"],
+    "svg": null
+  },
+  {
+    "id": "pincha-mayurasana",
+    "sanskrit": "Piñcha Mayūrāsana",
+    "chinese": "孔雀羽毛式",
+    "english": "Forearm Stand",
+    "aliases": ["Feathered Peacock Pose"],
+    "category": "inversion",
+    "tags": ["advanced", "inversion", "arm-strength"],
+    "svg": null
+  },
+  {
+    "id": "adho-mukha-vrksasana",
+    "sanskrit": "Adho Mukha Vṛkṣāsana",
+    "chinese": "手倒立式",
+    "english": "Handstand",
+    "aliases": [],
+    "category": "inversion",
+    "tags": ["advanced", "inversion", "arm-strength"],
+    "svg": null
+  },
+  {
+    "id": "viparita-karani",
+    "sanskrit": "Viparīta Karaṇī",
+    "chinese": "靠牆倒箭式",
+    "english": "Legs-Up-the-Wall Pose",
+    "aliases": [],
+    "category": "inversion",
+    "tags": ["beginner", "restorative", "calming"],
+    "svg": null
+  },
+  {
+    "id": "savasana",
+    "sanskrit": "Śavāsana",
+    "chinese": "攤屍式",
+    "english": "Corpse Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["beginner", "restorative", "relaxation"],
+    "svg": null
+  },
+  {
+    "id": "supta-padangusthasana",
+    "sanskrit": "Supta Pādāṅguṣṭhāsana",
+    "chinese": "臥手抓腳趾式",
+    "english": "Reclining Hand-to-Big-Toe Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["beginner", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "supta-baddha-konasana",
+    "sanskrit": "Supta Baddha Koṇāsana",
+    "chinese": "臥束角式",
+    "english": "Reclining Bound Angle Pose",
+    "aliases": ["Reclining Butterfly"],
+    "category": "supine",
+    "tags": ["beginner", "restorative", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "ananda-balasana",
+    "sanskrit": "Ānanda Bālāsana",
+    "chinese": "快樂嬰兒式",
+    "english": "Happy Baby Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["beginner", "hip-opener", "playful"],
+    "svg": null
+  },
+  {
+    "id": "apanasana",
+    "sanskrit": "Apānāsana",
+    "chinese": "排氣式",
+    "english": "Knees-to-Chest Pose",
+    "aliases": ["Wind-Relieving Pose"],
+    "category": "supine",
+    "tags": ["beginner", "gentle", "digestion"],
+    "svg": null
+  },
+  {
+    "id": "bakasana",
+    "sanskrit": "Bakāsana",
+    "chinese": "鶴式",
+    "english": "Crane Pose",
+    "aliases": ["Crow Pose", "Kākāsana"],
+    "category": "arm-balance",
+    "tags": ["intermediate", "arm-balance", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "parsva-bakasana",
+    "sanskrit": "Pārśva Bakāsana",
+    "chinese": "側鶴式",
+    "english": "Side Crane Pose",
+    "aliases": ["Side Crow"],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "twist"],
+    "svg": null
+  },
+  {
+    "id": "astavakrasana",
+    "sanskrit": "Aṣṭāvakrāsana",
+    "chinese": "八角式",
+    "english": "Eight-Angle Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "twist"],
+    "svg": null
+  },
+  {
+    "id": "tittibhasana",
+    "sanskrit": "Ṭiṭṭibhāsana",
+    "chinese": "螢火蟲式",
+    "english": "Firefly Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "bhujapidasana",
+    "sanskrit": "Bhujapīḍāsana",
+    "chinese": "壓臂式",
+    "english": "Shoulder-Pressing Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "eka-pada-koundinyanasana-i",
+    "sanskrit": "Eka Pāda Kauṇḍinyāsana I",
+    "chinese": "單腳聖哲康迪亞式一",
+    "english": "Pose Dedicated to the Sage Koundinya I",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "twist"],
+    "svg": null
+  },
+  {
+    "id": "eka-pada-koundinyanasana-ii",
+    "sanskrit": "Eka Pāda Kauṇḍinyāsana II",
+    "chinese": "單腳聖哲康迪亞式二",
+    "english": "Pose Dedicated to the Sage Koundinya II",
+    "aliases": ["Flying Splits"],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "mayurasana",
+    "sanskrit": "Mayūrāsana",
+    "chinese": "孔雀式",
+    "english": "Peacock Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "tolasana",
+    "sanskrit": "Tolāsana",
+    "chinese": "天秤式",
+    "english": "Scale Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["intermediate", "arm-balance", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "lolasana",
+    "sanskrit": "Lolāsana",
+    "chinese": "吊墜式",
+    "english": "Pendant Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "chaturanga-dandasana",
+    "sanskrit": "Caturaṅga Daṇḍāsana",
+    "chinese": "四肢支撐式",
+    "english": "Four-Limbed Staff Pose",
+    "aliases": ["Low Plank"],
+    "category": "arm-balance",
+    "tags": ["beginner", "strength", "foundation"],
+    "svg": null
+  },
+  {
+    "id": "vasisthasana",
+    "sanskrit": "Vasiṣṭhāsana",
+    "chinese": "側板式",
+    "english": "Side Plank Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["intermediate", "balance", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "phalakasana",
+    "sanskrit": "Phalakāsana",
+    "chinese": "平板式",
+    "english": "Plank Pose",
+    "aliases": ["High Plank"],
+    "category": "arm-balance",
+    "tags": ["beginner", "core-strength", "foundation"],
+    "svg": null
+  },
+  {
+    "id": "navasana",
+    "sanskrit": "Nāvāsana",
+    "chinese": "船式",
+    "english": "Boat Pose",
+    "aliases": ["Paripūrṇa Nāvāsana"],
+    "category": "seated",
+    "tags": ["intermediate", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "ardha-navasana",
+    "sanskrit": "Ardha Nāvāsana",
+    "chinese": "半船式",
+    "english": "Half Boat Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "malasana",
+    "sanskrit": "Mālāsana",
+    "chinese": "花環式",
+    "english": "Garland Pose",
+    "aliases": ["Yogic Squat"],
+    "category": "standing",
+    "tags": ["beginner", "hip-opener", "groin-stretch"],
+    "svg": null
+  },
+  {
+    "id": "balasana",
+    "sanskrit": "Bālāsana",
+    "chinese": "嬰兒式",
+    "english": "Child's Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "restorative", "calming"],
+    "svg": null
+  },
+  {
+    "id": "marjaryasana-bitilasana",
+    "sanskrit": "Mārjāryāsana-Bitilāsana",
+    "chinese": "貓牛式",
+    "english": "Cat-Cow Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "spinal-mobility", "warm-up"],
+    "svg": null
+  },
+  {
+    "id": "simhasana",
+    "sanskrit": "Siṃhāsana",
+    "chinese": "獅子式",
+    "english": "Lion Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "face-stretch", "breath"],
+    "svg": null
+  },
+  {
+    "id": "eka-pada-rajakapotasana",
+    "sanskrit": "Eka Pāda Rājakapotāsana",
+    "chinese": "單腳鴿王式",
+    "english": "One-Legged King Pigeon Pose",
+    "aliases": ["Pigeon Pose"],
+    "category": "backbend",
+    "tags": ["advanced", "hip-opener", "backbend"],
+    "svg": null
+  },
+  {
+    "id": "kapotasana",
+    "sanskrit": "Kapotāsana",
+    "chinese": "鴿王式",
+    "english": "King Pigeon Pose",
+    "aliases": [],
+    "category": "backbend",
+    "tags": ["advanced", "backbend", "deep-backbend"],
+    "svg": null
+  },
+  {
+    "id": "agnistambhasana",
+    "sanskrit": "Agnistambhāsana",
+    "chinese": "雙鴿式",
+    "english": "Fire Log Pose",
+    "aliases": ["Double Pigeon"],
+    "category": "seated",
+    "tags": ["intermediate", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "hanumanasana",
+    "sanskrit": "Hanumānāsana",
+    "chinese": "猴神式",
+    "english": "Monkey Pose",
+    "aliases": ["Full Splits"],
+    "category": "seated",
+    "tags": ["advanced", "hamstring-stretch", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "kurmasana",
+    "sanskrit": "Kūrmāsana",
+    "chinese": "龜式",
+    "english": "Tortoise Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["advanced", "forward-fold", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "supta-kurmasana",
+    "sanskrit": "Supta Kūrmāsana",
+    "chinese": "臥龜式",
+    "english": "Sleeping Tortoise Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["advanced", "forward-fold", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "krounchasana",
+    "sanskrit": "Krauñcāsana",
+    "chinese": "鷺式",
+    "english": "Heron Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "parighasana",
+    "sanskrit": "Parighāsana",
+    "chinese": "門閂式",
+    "english": "Gate Pose",
+    "aliases": [],
+    "category": "standing",
+    "tags": ["beginner", "lateral-stretch"],
+    "svg": null
+  },
+  {
+    "id": "anjaneyasana",
+    "sanskrit": "Āñjaneyāsana",
+    "chinese": "低弓步式",
+    "english": "Low Lunge",
+    "aliases": ["Crescent Low Lunge"],
+    "category": "standing",
+    "tags": ["beginner", "hip-opener", "quadriceps-stretch"],
+    "svg": null
+  },
+  {
+    "id": "ashta-chandrasana",
+    "sanskrit": "Aṣṭa Candrāsana",
+    "chinese": "高弓步式",
+    "english": "High Lunge",
+    "aliases": ["Crescent Pose"],
+    "category": "standing",
+    "tags": ["beginner", "strength", "balance"],
+    "svg": null
+  },
+  {
+    "id": "parivrtta-anjaneyasana",
+    "sanskrit": "Parivrtta Āñjaneyāsana",
+    "chinese": "扭轉低弓步式",
+    "english": "Revolved Low Lunge",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["intermediate", "twist", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "ashtanga-namaskara",
+    "sanskrit": "Aṣṭāṅga Namaskāra",
+    "chinese": "八體投地式",
+    "english": "Eight-Limbed Salutation",
+    "aliases": ["Knees-Chest-Chin"],
+    "category": "prone",
+    "tags": ["beginner", "transition", "foundation"],
+    "svg": null
+  },
+  {
+    "id": "makara-adho-mukha-svanasana",
+    "sanskrit": "Makara Adho Mukha Śvānāsana",
+    "chinese": "海豚式",
+    "english": "Dolphin Pose",
+    "aliases": [],
+    "category": "inversion",
+    "tags": ["intermediate", "shoulder-strength", "inversion-prep"],
+    "svg": null
+  },
+  {
+    "id": "uttana-shishosana",
+    "sanskrit": "Uttāna Śīśosana",
+    "chinese": "延伸小狗式",
+    "english": "Extended Puppy Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["beginner", "shoulder-opener", "spine-stretch"],
+    "svg": null
+  },
+  {
+    "id": "sasangasana",
+    "sanskrit": "Śaśāṅgāsana",
+    "chinese": "兔式",
+    "english": "Rabbit Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "spinal-stretch", "inversion-prep"],
+    "svg": null
+  },
+  {
+    "id": "supta-konasana",
+    "sanskrit": "Supta Koṇāsana",
+    "chinese": "臥角式",
+    "english": "Reclining Angle Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["intermediate", "inversion", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "karnapidasana",
+    "sanskrit": "Karṇapīḍāsana",
+    "chinese": "膝碰耳式",
+    "english": "Ear Pressure Pose",
+    "aliases": [],
+    "category": "inversion",
+    "tags": ["intermediate", "inversion", "spinal-flexion"],
+    "svg": null
+  },
+  {
+    "id": "salamba-bhujangasana",
+    "sanskrit": "Sālamba Bhujaṅgāsana",
+    "chinese": "人面獅身式",
+    "english": "Sphinx Pose",
+    "aliases": [],
+    "category": "prone",
+    "tags": ["beginner", "gentle-backbend", "restorative"],
+    "svg": null
+  },
+  {
+    "id": "ardha-bhekasana",
+    "sanskrit": "Ardha Bhekāsana",
+    "chinese": "半蛙式",
+    "english": "Half Frog Pose",
+    "aliases": [],
+    "category": "prone",
+    "tags": ["intermediate", "quadriceps-stretch", "backbend"],
+    "svg": null
+  },
+  {
+    "id": "bhekasana",
+    "sanskrit": "Bhekāsana",
+    "chinese": "蛙式",
+    "english": "Frog Pose",
+    "aliases": [],
+    "category": "prone",
+    "tags": ["advanced", "quadriceps-stretch", "backbend"],
+    "svg": null
+  },
+  {
+    "id": "makarasana",
+    "sanskrit": "Makarāsana",
+    "chinese": "鱷魚式",
+    "english": "Crocodile Pose",
+    "aliases": [],
+    "category": "prone",
+    "tags": ["beginner", "restorative", "relaxation"],
+    "svg": null
+  },
+  {
+    "id": "purvottanasana",
+    "sanskrit": "Pūrvottānāsana",
+    "chinese": "反向板式",
+    "english": "Upward Plank Pose",
+    "aliases": ["Reverse Plank"],
+    "category": "backbend",
+    "tags": ["intermediate", "strength", "chest-opener"],
+    "svg": null
+  },
+  {
+    "id": "camatkarasana",
+    "sanskrit": "Camatkārāsana",
+    "chinese": "狂野式",
+    "english": "Wild Thing",
+    "aliases": ["Flip Dog"],
+    "category": "backbend",
+    "tags": ["intermediate", "backbend", "chest-opener"],
+    "svg": null
+  },
+  {
+    "id": "urdhva-mukha-paschimottanasana",
+    "sanskrit": "Ūrdhva Mukha Paścimottānāsana",
+    "chinese": "面朝上坐姿前彎式",
+    "english": "Upward-Facing Seated Forward Bend",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["advanced", "core-strength", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "ubhaya-padangusthasana",
+    "sanskrit": "Ubhaya Pādāṅguṣṭhāsana",
+    "chinese": "雙手抓腳趾式",
+    "english": "Both Big Toe Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "core-strength", "balance"],
+    "svg": null
+  },
+  {
+    "id": "dwi-pada-sirsasana",
+    "sanskrit": "Dvi Pāda Śīrṣāsana",
+    "chinese": "雙腳繞頭式",
+    "english": "Both Feet Behind the Head Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["advanced", "hip-opener", "flexibility"],
+    "svg": null
+  },
+  {
+    "id": "galavasana",
+    "sanskrit": "Gālavāsana",
+    "chinese": "飛鴿式",
+    "english": "Flying Pigeon Pose",
+    "aliases": ["Eka Pāda Gālavāsana"],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "svarga-dvijasana",
+    "sanskrit": "Svarga Dvijāsana",
+    "chinese": "鳥樂園式",
+    "english": "Bird of Paradise Pose",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["advanced", "balance", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "utthita-hasta-padangusthasana",
+    "sanskrit": "Utthita Hasta Pādāṅguṣṭhāsana",
+    "chinese": "站立手抓腳趾式",
+    "english": "Extended Hand-to-Big-Toe Pose",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["intermediate", "balance", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "parivrtta-ardha-chandrasana",
+    "sanskrit": "Parivrtta Ardha Candrāsana",
+    "chinese": "扭轉半月式",
+    "english": "Revolved Half Moon Pose",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["advanced", "balance", "twist"],
+    "svg": null
+  },
+  {
+    "id": "pasasana",
+    "sanskrit": "Pāśāsana",
+    "chinese": "套索式",
+    "english": "Noose Pose",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["advanced", "twist", "balance"],
+    "svg": null
+  },
+  {
+    "id": "jathara-parivartanasana",
+    "sanskrit": "Jaṭhara Parivartanāsana",
+    "chinese": "腹部扭轉式",
+    "english": "Revolved Abdomen Pose",
+    "aliases": ["Belly Twist"],
+    "category": "twist",
+    "tags": ["beginner", "twist", "restorative"],
+    "svg": null
+  },
+  {
+    "id": "padahastasana",
+    "sanskrit": "Pādahastāsana",
+    "chinese": "腳踩手掌前彎式",
+    "english": "Hand-Under-Foot Pose",
+    "aliases": [],
+    "category": "forward-fold",
+    "tags": ["intermediate", "hamstring-stretch", "wrist-stretch"],
+    "svg": null
+  },
+  {
+    "id": "urdhva-hastasana",
+    "sanskrit": "Ūrdhva Hastāsana",
+    "chinese": "向上伸展式",
+    "english": "Upward Salute",
+    "aliases": ["Raised Arms Pose"],
+    "category": "standing",
+    "tags": ["beginner", "foundation", "chest-opener"],
+    "svg": null
+  },
+  {
+    "id": "utkata-konasana",
+    "sanskrit": "Utkaṭa Koṇāsana",
+    "chinese": "女神式",
+    "english": "Goddess Pose",
+    "aliases": ["Temple Pose"],
+    "category": "standing",
+    "tags": ["beginner", "hip-opener", "strength"],
+    "svg": null
+  },
+  {
+    "id": "skandasana",
+    "sanskrit": "Skandāsana",
+    "chinese": "側蹲式",
+    "english": "Side Lunge",
+    "aliases": [],
+    "category": "standing",
+    "tags": ["intermediate", "hip-opener", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "chakravakasana",
+    "sanskrit": "Cakravākāsana",
+    "chinese": "鴛鴦式",
+    "english": "Sunbird Pose",
+    "aliases": ["Bird Dog"],
+    "category": "seated",
+    "tags": ["beginner", "core-strength", "balance"],
+    "svg": null
+  },
+  {
+    "id": "eka-pada-rajakapotasana-prep",
+    "sanskrit": "Eka Pāda Rājakapotāsana Prep",
+    "chinese": "鴿式準備式",
+    "english": "Pigeon Prep Pose",
+    "aliases": ["Sleeping Pigeon"],
+    "category": "seated",
+    "tags": ["beginner", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "matsyendrasana",
+    "sanskrit": "Matsyendrāsana",
+    "chinese": "完全魚王式",
+    "english": "Full Lord of the Fishes Pose",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["advanced", "twist", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "parivrtta-utkatasana",
+    "sanskrit": "Parivrtta Utkaṭāsana",
+    "chinese": "扭轉幻椅式",
+    "english": "Revolved Chair Pose",
+    "aliases": [],
+    "category": "twist",
+    "tags": ["intermediate", "twist", "strength"],
+    "svg": null
+  },
+  {
+    "id": "dwi-pada-viparita-dandasana",
+    "sanskrit": "Dvi Pāda Viparīta Daṇḍāsana",
+    "chinese": "雙腳反向手杖式",
+    "english": "Two-Legged Inverted Staff Pose",
+    "aliases": [],
+    "category": "backbend",
+    "tags": ["advanced", "backbend", "inversion"],
+    "svg": null
+  },
+  {
+    "id": "urdhva-prasarita-eka-padasana",
+    "sanskrit": "Ūrdhva Prasārita Eka Pādāsana",
+    "chinese": "站立劈腿式",
+    "english": "Standing Splits",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["intermediate", "balance", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "parivrtta-janu-sirsasana",
+    "sanskrit": "Parivrtta Jānu Śīrṣāsana",
+    "chinese": "扭轉頭碰膝式",
+    "english": "Revolved Head-to-Knee Pose",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "lateral-stretch", "twist"],
+    "svg": null
+  },
+  {
+    "id": "triang-mukhaikapada-paschimottanasana",
+    "sanskrit": "Triaṅg Mukhaikapāda Paścimottānāsana",
+    "chinese": "三角面朝下單腿前彎式",
+    "english": "Three-Limbed Forward Bend",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["intermediate", "hamstring-stretch", "asymmetric"],
+    "svg": null
+  },
+  {
+    "id": "ardha-baddha-padma-paschimottanasana",
+    "sanskrit": "Ardha Baddha Padma Paścimottānāsana",
+    "chinese": "半蓮花束縛前彎式",
+    "english": "Half Bound Lotus Forward Bend",
+    "aliases": [],
+    "category": "seated",
+    "tags": ["advanced", "hip-opener", "forward-fold"],
+    "svg": null
+  },
+  {
+    "id": "utthan-pristhasana",
+    "sanskrit": "Utthān Pṛṣṭhāsana",
+    "chinese": "蜥蜴式",
+    "english": "Lizard Pose",
+    "aliases": [],
+    "category": "standing",
+    "tags": ["intermediate", "hip-opener", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "ardha-hanumanasana",
+    "sanskrit": "Ardha Hanumānāsana",
+    "chinese": "半猴神式",
+    "english": "Half Splits",
+    "aliases": ["Runner's Lunge"],
+    "category": "standing",
+    "tags": ["beginner", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "visvamitrasana",
+    "sanskrit": "Viśvāmitrāsana",
+    "chinese": "聖哲毘世米多羅式",
+    "english": "Visvamitra's Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["advanced", "arm-balance", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "urdhva-prasarita-padasana",
+    "sanskrit": "Ūrdhva Prasārita Pādāsana",
+    "chinese": "仰臥上伸腿式",
+    "english": "Upward Extended Feet Pose",
+    "aliases": ["Leg Raises"],
+    "category": "supine",
+    "tags": ["beginner", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "matsyasana-padmasana",
+    "sanskrit": "Matsyāsana in Padmāsana",
+    "chinese": "蓮花魚式",
+    "english": "Fish Pose in Lotus",
+    "aliases": [],
+    "category": "backbend",
+    "tags": ["advanced", "backbend", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "prarthanasana",
+    "sanskrit": "Prārthanāsana",
+    "chinese": "祈禱式",
+    "english": "Prayer Pose",
+    "aliases": ["Añjali Mudrā"],
+    "category": "standing",
+    "tags": ["beginner", "foundation", "meditation"],
+    "svg": null
+  },
+  {
+    "id": "ardha-baddha-padmottanasana",
+    "sanskrit": "Ardha Baddha Padmottānāsana",
+    "chinese": "半蓮花束縛站立前彎式",
+    "english": "Half Bound Lotus Standing Forward Bend",
+    "aliases": [],
+    "category": "forward-fold",
+    "tags": ["advanced", "balance", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "yoga-nidrasana",
+    "sanskrit": "Yoga Nidrāsana",
+    "chinese": "瑜伽睡眠式",
+    "english": "Yogic Sleep Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["advanced", "hip-opener", "flexibility"],
+    "svg": null
+  },
+  {
+    "id": "parsva-dhanurasana",
+    "sanskrit": "Pārśva Dhanurāsana",
+    "chinese": "側弓式",
+    "english": "Side Bow Pose",
+    "aliases": [],
+    "category": "prone",
+    "tags": ["intermediate", "backbend", "lateral-stretch"],
+    "svg": null
+  },
+  {
+    "id": "supta-trivikramasana",
+    "sanskrit": "Supta Trivikramāsana",
+    "chinese": "臥毗濕奴式",
+    "english": "Reclining Splits Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["advanced", "hamstring-stretch", "flexibility"],
+    "svg": null
+  },
+  {
+    "id": "goraksasana",
+    "sanskrit": "Gorakṣāsana",
+    "chinese": "牧牛者式",
+    "english": "Cowherd Pose",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["advanced", "balance", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "eka-pada-viparita-dandasana",
+    "sanskrit": "Eka Pāda Viparīta Daṇḍāsana",
+    "chinese": "單腳反向手杖式",
+    "english": "One-Legged Inverted Staff Pose",
+    "aliases": [],
+    "category": "backbend",
+    "tags": ["advanced", "backbend", "inversion"],
+    "svg": null
+  },
+  {
+    "id": "supta-padmasana",
+    "sanskrit": "Supta Padmāsana",
+    "chinese": "臥蓮花式",
+    "english": "Reclining Lotus Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["advanced", "hip-opener", "restorative"],
+    "svg": null
+  },
+  {
+    "id": "ardha-pincha-mayurasana",
+    "sanskrit": "Ardha Piñcha Mayūrāsana",
+    "chinese": "海豚板式",
+    "english": "Dolphin Plank Pose",
+    "aliases": [],
+    "category": "arm-balance",
+    "tags": ["intermediate", "core-strength", "shoulder-strength"],
+    "svg": null
+  },
+  {
+    "id": "surya-namaskar-a",
+    "sanskrit": "Sūrya Namaskāra A",
+    "chinese": "拜日式A",
+    "english": "Sun Salutation A",
+    "aliases": [],
+    "category": "standing",
+    "tags": ["beginner", "vinyasa", "warm-up", "sequence"],
+    "svg": null
+  },
+  {
+    "id": "surya-namaskar-b",
+    "sanskrit": "Sūrya Namaskāra B",
+    "chinese": "拜日式B",
+    "english": "Sun Salutation B",
+    "aliases": [],
+    "category": "standing",
+    "tags": ["intermediate", "vinyasa", "warm-up", "sequence"],
+    "svg": null
+  },
+  {
+    "id": "salabhasana-b",
+    "sanskrit": "Śalabhāsana B",
+    "chinese": "蝗蟲式變體",
+    "english": "Locust Pose B",
+    "aliases": [],
+    "category": "prone",
+    "tags": ["intermediate", "back-strengthening"],
+    "svg": null
+  },
+  {
+    "id": "supta-padangusthasana-b",
+    "sanskrit": "Supta Pādāṅguṣṭhāsana B",
+    "chinese": "臥手抓腳趾式二",
+    "english": "Reclining Hand-to-Big-Toe Pose B",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["beginner", "hip-opener", "hamstring-stretch"],
+    "svg": null
+  },
+  {
+    "id": "savasana-bolster",
+    "sanskrit": "Śavāsana Variation",
+    "chinese": "攤屍式變體",
+    "english": "Supported Corpse Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["beginner", "restorative", "relaxation"],
+    "svg": null
+  },
+  {
+    "id": "naukasana",
+    "sanskrit": "Naukāsana",
+    "chinese": "仰臥船式",
+    "english": "Supine Boat Pose",
+    "aliases": [],
+    "category": "supine",
+    "tags": ["intermediate", "core-strength"],
+    "svg": null
+  },
+  {
+    "id": "utthita-parsvasahita",
+    "sanskrit": "Utthita Pārśvasahita",
+    "chinese": "站立側腿伸展式",
+    "english": "Extended Side Leg Hold",
+    "aliases": [],
+    "category": "balance",
+    "tags": ["intermediate", "balance", "hip-opener"],
+    "svg": null
+  },
+  {
+    "id": "ashwa-sanchalanasana",
+    "sanskrit": "Aśva Sañcālanāsana",
+    "chinese": "騎馬式",
+    "english": "Equestrian Pose",
+    "aliases": [],
+    "category": "standing",
+    "tags": ["beginner", "hip-opener", "sun-salutation"],
+    "svg": null
+  }
+]
