@@ -13,7 +13,7 @@
       "foundation",
       "alignment"
     ],
-    "svg": "svg/tadasana.svg"
+    "svg": "tadasana.svg"
   },
   {
     "id": "virabhadrasana-i",
@@ -27,7 +27,7 @@
       "strength",
       "hip-opener"
     ],
-    "svg": "svg/virabhadrasana-i.svg"
+    "svg": "virabhadrasana-i.svg"
   },
   {
     "id": "virabhadrasana-ii",
@@ -41,7 +41,7 @@
       "strength",
       "hip-opener"
     ],
-    "svg": "svg/virabhadrasana-ii.svg"
+    "svg": "virabhadrasana-ii.svg"
   },
   {
     "id": "virabhadrasana-iii",
@@ -55,7 +55,7 @@
       "strength",
       "balance"
     ],
-    "svg": "svg/virabhadrasana-iii.svg"
+    "svg": "virabhadrasana-iii.svg"
   },
   {
     "id": "trikonasana",
@@ -71,7 +71,7 @@
       "lateral-stretch",
       "hip-opener"
     ],
-    "svg": "svg/trikonasana.svg"
+    "svg": "trikonasana.svg"
   },
   {
     "id": "parivrtta-trikonasana",
@@ -85,7 +85,7 @@
       "twist",
       "balance"
     ],
-    "svg": "svg/parivrtta-trikonasana.svg"
+    "svg": "parivrtta-trikonasana.svg"
   },
   {
     "id": "parsvakonasana",
@@ -101,7 +101,7 @@
       "lateral-stretch",
       "strength"
     ],
-    "svg": "svg/parsvakonasana.svg"
+    "svg": "parsvakonasana.svg"
   },
   {
     "id": "parivrtta-parsvakonasana",
@@ -115,7 +115,7 @@
       "twist",
       "strength"
     ],
-    "svg": "svg/parivrtta-parsvakonasana.svg"
+    "svg": "parivrtta-parsvakonasana.svg"
   },
   {
     "id": "utkatasana",
@@ -131,7 +131,7 @@
       "strength",
       "quadriceps"
     ],
-    "svg": "svg/utkatasana.svg"
+    "svg": "utkatasana.svg"
   },
   {
     "id": "vrksasana",
@@ -145,7 +145,7 @@
       "balance",
       "hip-opener"
     ],
-    "svg": "svg/vrksasana.svg"
+    "svg": "vrksasana.svg"
   },
   {
     "id": "garudasana",
@@ -159,7 +159,7 @@
       "balance",
       "shoulder-opener"
     ],
-    "svg": "svg/garudasana.svg"
+    "svg": "garudasana.svg"
   },
   {
     "id": "natarajasana",
@@ -175,7 +175,7 @@
       "balance",
       "backbend"
     ],
-    "svg": "svg/natarajasana.svg"
+    "svg": "natarajasana.svg"
   },
   {
     "id": "ardha-chandrasana",
@@ -189,7 +189,7 @@
       "balance",
       "lateral-stretch"
     ],
-    "svg": "svg/ardha-chandrasana.svg"
+    "svg": "ardha-chandrasana.svg"
   },
   {
     "id": "uttanasana",
@@ -203,7 +203,7 @@
       "hamstring-stretch",
       "calming"
     ],
-    "svg": "svg/uttanasana.svg"
+    "svg": "uttanasana.svg"
   },
   {
     "id": "ardha-uttanasana",
@@ -219,7 +219,7 @@
       "spinal-extension",
       "foundation"
     ],
-    "svg": "svg/ardha-uttanasana.svg"
+    "svg": "ardha-uttanasana.svg"
   },
   {
     "id": "padangusthasana",
@@ -232,7 +232,7 @@
       "beginner",
       "hamstring-stretch"
     ],
-    "svg": "svg/padangusthasana.svg"
+    "svg": "padangusthasana.svg"
   },
   {
     "id": "prasarita-padottanasana",
@@ -246,7 +246,7 @@
       "hamstring-stretch",
       "inversion-prep"
     ],
-    "svg": "svg/prasarita-padottanasana.svg"
+    "svg": "prasarita-padottanasana.svg"
   },
   {
     "id": "parsvottanasana",
@@ -262,7 +262,7 @@
       "hamstring-stretch",
       "balance"
     ],
-    "svg": "svg/parsvottanasana.svg"
+    "svg": "parsvottanasana.svg"
   },
   {
     "id": "adho-mukha-svanasana",
@@ -278,7 +278,7 @@
       "foundation",
       "full-body-stretch"
     ],
-    "svg": "svg/adho-mukha-svanasana.svg"
+    "svg": "adho-mukha-svanasana.svg"
   },
   {
     "id": "urdhva-mukha-svanasana",
@@ -294,7 +294,7 @@
       "backbend",
       "chest-opener"
     ],
-    "svg": "svg/urdhva-mukha-svanasana.svg"
+    "svg": "urdhva-mukha-svanasana.svg"
   },
   {
     "id": "bhujangasana",
@@ -308,7 +308,7 @@
       "backbend",
       "chest-opener"
     ],
-    "svg": "svg/bhujangasana.svg"
+    "svg": "bhujangasana.svg"
   },
   {
     "id": "salabhasana",
@@ -321,7 +321,7 @@
       "beginner",
       "back-strengthening"
     ],
-    "svg": "svg/salabhasana.svg"
+    "svg": "salabhasana.svg"
   },
   {
     "id": "dhanurasana",
@@ -335,7 +335,7 @@
       "backbend",
       "chest-opener"
     ],
-    "svg": "svg/dhanurasana.svg"
+    "svg": "dhanurasana.svg"
   },
   {
     "id": "urdhva-dhanurasana",
@@ -352,7 +352,7 @@
       "backbend",
       "full-body"
     ],
-    "svg": "svg/urdhva-dhanurasana.svg"
+    "svg": "urdhva-dhanurasana.svg"
   },
   {
     "id": "ustrasana",
@@ -366,7 +366,7 @@
       "backbend",
       "chest-opener"
     ],
-    "svg": "svg/ustrasana.svg"
+    "svg": "ustrasana.svg"
   },
   {
     "id": "setu-bandha-sarvangasana",
@@ -380,7 +380,7 @@
       "backbend",
       "hip-opener"
     ],
-    "svg": "svg/setu-bandha-sarvangasana.svg"
+    "svg": "setu-bandha-sarvangasana.svg"
   },
   {
     "id": "matsyasana",
@@ -394,7 +394,7 @@
       "backbend",
       "chest-opener"
     ],
-    "svg": "svg/matsyasana.svg"
+    "svg": "matsyasana.svg"
   },
   {
     "id": "dandasana",
@@ -408,7 +408,7 @@
       "foundation",
       "alignment"
     ],
-    "svg": "svg/dandasana.svg"
+    "svg": "dandasana.svg"
   },
   {
     "id": "paschimottanasana",
@@ -422,7 +422,7 @@
       "hamstring-stretch",
       "calming"
     ],
-    "svg": "svg/paschimottanasana.svg"
+    "svg": "paschimottanasana.svg"
   },
   {
     "id": "baddha-konasana",
@@ -439,7 +439,7 @@
       "hip-opener",
       "groin-stretch"
     ],
-    "svg": "svg/baddha-konasana.svg"
+    "svg": "baddha-konasana.svg"
   },
   {
     "id": "janu-sirsasana",
@@ -453,7 +453,7 @@
       "hamstring-stretch",
       "asymmetric"
     ],
-    "svg": "svg/janu-sirsasana.svg"
+    "svg": "janu-sirsasana.svg"
   },
   {
     "id": "upavistha-konasana",
@@ -467,7 +467,7 @@
       "hamstring-stretch",
       "hip-opener"
     ],
-    "svg": "svg/upavistha-konasana.svg"
+    "svg": "upavistha-konasana.svg"
   },
   {
     "id": "gomukhasana",
@@ -481,7 +481,7 @@
       "shoulder-opener",
       "hip-opener"
     ],
-    "svg": "svg/gomukhasana.svg"
+    "svg": "gomukhasana.svg"
   },
   {
     "id": "virasana",
@@ -495,7 +495,7 @@
       "quadriceps-stretch",
       "meditation"
     ],
-    "svg": "svg/virasana.svg"
+    "svg": "virasana.svg"
   },
   {
     "id": "supta-virasana",
@@ -509,7 +509,7 @@
       "quadriceps-stretch",
       "backbend"
     ],
-    "svg": "svg/supta-virasana.svg"
+    "svg": "supta-virasana.svg"
   },
   {
     "id": "vajrasana",
@@ -525,7 +525,7 @@
       "meditation",
       "digestion"
     ],
-    "svg": "svg/vajrasana.svg"
+    "svg": "vajrasana.svg"
   },
   {
     "id": "padmasana",
@@ -539,7 +539,7 @@
       "hip-opener",
       "meditation"
     ],
-    "svg": "svg/padmasana.svg"
+    "svg": "padmasana.svg"
   },
   {
     "id": "ardha-padmasana",
@@ -553,7 +553,7 @@
       "hip-opener",
       "meditation"
     ],
-    "svg": "svg/ardha-padmasana.svg"
+    "svg": "ardha-padmasana.svg"
   },
   {
     "id": "sukhasana",
@@ -567,7 +567,7 @@
       "meditation",
       "foundation"
     ],
-    "svg": "svg/sukhasana.svg"
+    "svg": "sukhasana.svg"
   },
   {
     "id": "siddhasana",
@@ -583,7 +583,7 @@
       "meditation",
       "hip-opener"
     ],
-    "svg": "svg/siddhasana.svg"
+    "svg": "siddhasana.svg"
   },
   {
     "id": "ardha-matsyendrasana",
@@ -597,7 +597,7 @@
       "twist",
       "spinal-mobility"
     ],
-    "svg": "svg/ardha-matsyendrasana.svg"
+    "svg": "ardha-matsyendrasana.svg"
   },
   {
     "id": "marichyasana-i",
@@ -611,7 +611,7 @@
       "forward-fold",
       "shoulder-opener"
     ],
-    "svg": "svg/marichyasana-i.svg"
+    "svg": "marichyasana-i.svg"
   },
   {
     "id": "marichyasana-ii",
@@ -625,7 +625,7 @@
       "forward-fold",
       "hip-opener"
     ],
-    "svg": "svg/marichyasana-ii.svg"
+    "svg": "marichyasana-ii.svg"
   },
   {
     "id": "marichyasana-iii",
@@ -639,7 +639,7 @@
       "twist",
       "spinal-mobility"
     ],
-    "svg": "svg/marichyasana-iii.svg"
+    "svg": "marichyasana-iii.svg"
   },
   {
     "id": "marichyasana-iv",
@@ -653,7 +653,7 @@
       "twist",
       "hip-opener"
     ],
-    "svg": "svg/marichyasana-iv.svg"
+    "svg": "marichyasana-iv.svg"
   },
   {
     "id": "bharadvajasana",
@@ -667,7 +667,7 @@
       "twist",
       "gentle"
     ],
-    "svg": "svg/bharadvajasana.svg"
+    "svg": "bharadvajasana.svg"
   },
   {
     "id": "supta-matsyendrasana",
@@ -683,7 +683,7 @@
       "twist",
       "restorative"
     ],
-    "svg": "svg/supta-matsyendrasana.svg"
+    "svg": "supta-matsyendrasana.svg"
   },
   {
     "id": "sirsasana",
@@ -699,7 +699,7 @@
       "inversion",
       "core-strength"
     ],
-    "svg": "svg/sirsasana.svg"
+    "svg": "sirsasana.svg"
   },
   {
     "id": "sarvangasana",
@@ -715,7 +715,7 @@
       "inversion",
       "calming"
     ],
-    "svg": "svg/sarvangasana.svg"
+    "svg": "sarvangasana.svg"
   },
   {
     "id": "halasana",
@@ -729,7 +729,7 @@
       "inversion",
       "calming"
     ],
-    "svg": "svg/halasana.svg"
+    "svg": "halasana.svg"
   },
   {
     "id": "pincha-mayurasana",
@@ -745,7 +745,7 @@
       "inversion",
       "arm-strength"
     ],
-    "svg": "svg/pincha-mayurasana.svg"
+    "svg": "pincha-mayurasana.svg"
   },
   {
     "id": "adho-mukha-vrksasana",
@@ -759,7 +759,7 @@
       "inversion",
       "arm-strength"
     ],
-    "svg": "svg/adho-mukha-vrksasana.svg"
+    "svg": "adho-mukha-vrksasana.svg"
   },
   {
     "id": "viparita-karani",
@@ -773,7 +773,7 @@
       "restorative",
       "calming"
     ],
-    "svg": "svg/viparita-karani.svg"
+    "svg": "viparita-karani.svg"
   },
   {
     "id": "savasana",
@@ -787,7 +787,7 @@
       "restorative",
       "relaxation"
     ],
-    "svg": "svg/savasana.svg"
+    "svg": "savasana.svg"
   },
   {
     "id": "supta-padangusthasana",
@@ -800,7 +800,7 @@
       "beginner",
       "hamstring-stretch"
     ],
-    "svg": "svg/supta-padangusthasana.svg"
+    "svg": "supta-padangusthasana.svg"
   },
   {
     "id": "supta-baddha-konasana",
@@ -816,7 +816,7 @@
       "restorative",
       "hip-opener"
     ],
-    "svg": "svg/supta-baddha-konasana.svg"
+    "svg": "supta-baddha-konasana.svg"
   },
   {
     "id": "ananda-balasana",
@@ -830,7 +830,7 @@
       "hip-opener",
       "playful"
     ],
-    "svg": "svg/ananda-balasana.svg"
+    "svg": "ananda-balasana.svg"
   },
   {
     "id": "apanasana",
@@ -846,7 +846,7 @@
       "gentle",
       "digestion"
     ],
-    "svg": "svg/apanasana.svg"
+    "svg": "apanasana.svg"
   },
   {
     "id": "bakasana",
@@ -863,7 +863,7 @@
       "arm-balance",
       "core-strength"
     ],
-    "svg": "svg/bakasana.svg"
+    "svg": "bakasana.svg"
   },
   {
     "id": "parsva-bakasana",
@@ -879,7 +879,7 @@
       "arm-balance",
       "twist"
     ],
-    "svg": "svg/parsva-bakasana.svg"
+    "svg": "parsva-bakasana.svg"
   },
   {
     "id": "astavakrasana",
@@ -893,7 +893,7 @@
       "arm-balance",
       "twist"
     ],
-    "svg": "svg/astavakrasana.svg"
+    "svg": "astavakrasana.svg"
   },
   {
     "id": "tittibhasana",
@@ -907,7 +907,7 @@
       "arm-balance",
       "hamstring-stretch"
     ],
-    "svg": "svg/tittibhasana.svg"
+    "svg": "tittibhasana.svg"
   },
   {
     "id": "bhujapidasana",
@@ -921,7 +921,7 @@
       "arm-balance",
       "core-strength"
     ],
-    "svg": "svg/bhujapidasana.svg"
+    "svg": "bhujapidasana.svg"
   },
   {
     "id": "eka-pada-koundinyanasana-i",
@@ -935,7 +935,7 @@
       "arm-balance",
       "twist"
     ],
-    "svg": "svg/eka-pada-koundinyanasana-i.svg"
+    "svg": "eka-pada-koundinyanasana-i.svg"
   },
   {
     "id": "eka-pada-koundinyanasana-ii",
@@ -951,7 +951,7 @@
       "arm-balance",
       "hamstring-stretch"
     ],
-    "svg": "svg/eka-pada-koundinyanasana-ii.svg"
+    "svg": "eka-pada-koundinyanasana-ii.svg"
   },
   {
     "id": "mayurasana",
@@ -965,7 +965,7 @@
       "arm-balance",
       "core-strength"
     ],
-    "svg": "svg/mayurasana.svg"
+    "svg": "mayurasana.svg"
   },
   {
     "id": "tolasana",
@@ -979,7 +979,7 @@
       "arm-balance",
       "core-strength"
     ],
-    "svg": "svg/tolasana.svg"
+    "svg": "tolasana.svg"
   },
   {
     "id": "lolasana",
@@ -993,7 +993,7 @@
       "arm-balance",
       "core-strength"
     ],
-    "svg": "svg/lolasana.svg"
+    "svg": "lolasana.svg"
   },
   {
     "id": "chaturanga-dandasana",
@@ -1009,7 +1009,7 @@
       "strength",
       "foundation"
     ],
-    "svg": "svg/chaturanga-dandasana.svg"
+    "svg": "chaturanga-dandasana.svg"
   },
   {
     "id": "vasisthasana",
@@ -1023,7 +1023,7 @@
       "balance",
       "core-strength"
     ],
-    "svg": "svg/vasisthasana.svg"
+    "svg": "vasisthasana.svg"
   },
   {
     "id": "phalakasana",
@@ -1039,7 +1039,7 @@
       "core-strength",
       "foundation"
     ],
-    "svg": "svg/phalakasana.svg"
+    "svg": "phalakasana.svg"
   },
   {
     "id": "navasana",
@@ -1054,7 +1054,7 @@
       "intermediate",
       "core-strength"
     ],
-    "svg": "svg/navasana.svg"
+    "svg": "navasana.svg"
   },
   {
     "id": "ardha-navasana",
@@ -1067,7 +1067,7 @@
       "intermediate",
       "core-strength"
     ],
-    "svg": "svg/ardha-navasana.svg"
+    "svg": "ardha-navasana.svg"
   },
   {
     "id": "malasana",
@@ -1083,7 +1083,7 @@
       "hip-opener",
       "groin-stretch"
     ],
-    "svg": "svg/malasana.svg"
+    "svg": "malasana.svg"
   },
   {
     "id": "balasana",
@@ -1097,7 +1097,7 @@
       "restorative",
       "calming"
     ],
-    "svg": "svg/balasana.svg"
+    "svg": "balasana.svg"
   },
   {
     "id": "marjaryasana-bitilasana",
@@ -1111,7 +1111,7 @@
       "spinal-mobility",
       "warm-up"
     ],
-    "svg": "svg/marjaryasana-bitilasana.svg"
+    "svg": "marjaryasana-bitilasana.svg"
   },
   {
     "id": "simhasana",
@@ -1125,7 +1125,7 @@
       "face-stretch",
       "breath"
     ],
-    "svg": "svg/simhasana.svg"
+    "svg": "simhasana.svg"
   },
   {
     "id": "eka-pada-rajakapotasana",
@@ -1141,7 +1141,7 @@
       "hip-opener",
       "backbend"
     ],
-    "svg": "svg/eka-pada-rajakapotasana.svg"
+    "svg": "eka-pada-rajakapotasana.svg"
   },
   {
     "id": "kapotasana",
@@ -1155,7 +1155,7 @@
       "backbend",
       "deep-backbend"
     ],
-    "svg": "svg/kapotasana.svg"
+    "svg": "kapotasana.svg"
   },
   {
     "id": "agnistambhasana",
@@ -1170,7 +1170,7 @@
       "intermediate",
       "hip-opener"
     ],
-    "svg": "svg/agnistambhasana.svg"
+    "svg": "agnistambhasana.svg"
   },
   {
     "id": "hanumanasana",
@@ -1186,7 +1186,7 @@
       "hamstring-stretch",
       "hip-opener"
     ],
-    "svg": "svg/hanumanasana.svg"
+    "svg": "hanumanasana.svg"
   },
   {
     "id": "kurmasana",
@@ -1200,7 +1200,7 @@
       "forward-fold",
       "hip-opener"
     ],
-    "svg": "svg/kurmasana.svg"
+    "svg": "kurmasana.svg"
   },
   {
     "id": "supta-kurmasana",
@@ -1214,7 +1214,7 @@
       "forward-fold",
       "hip-opener"
     ],
-    "svg": "svg/supta-kurmasana.svg"
+    "svg": "supta-kurmasana.svg"
   },
   {
     "id": "krounchasana",
@@ -1227,7 +1227,7 @@
       "intermediate",
       "hamstring-stretch"
     ],
-    "svg": "svg/krounchasana.svg"
+    "svg": "krounchasana.svg"
   },
   {
     "id": "parighasana",
@@ -1240,7 +1240,7 @@
       "beginner",
       "lateral-stretch"
     ],
-    "svg": "svg/parighasana.svg"
+    "svg": "parighasana.svg"
   },
   {
     "id": "anjaneyasana",
@@ -1256,7 +1256,7 @@
       "hip-opener",
       "quadriceps-stretch"
     ],
-    "svg": "svg/anjaneyasana.svg"
+    "svg": "anjaneyasana.svg"
   },
   {
     "id": "ashta-chandrasana",
@@ -1272,7 +1272,7 @@
       "strength",
       "balance"
     ],
-    "svg": "svg/ashta-chandrasana.svg"
+    "svg": "ashta-chandrasana.svg"
   },
   {
     "id": "parivrtta-anjaneyasana",
@@ -1286,7 +1286,7 @@
       "twist",
       "hip-opener"
     ],
-    "svg": "svg/parivrtta-anjaneyasana.svg"
+    "svg": "parivrtta-anjaneyasana.svg"
   },
   {
     "id": "ashtanga-namaskara",
@@ -1302,7 +1302,7 @@
       "transition",
       "foundation"
     ],
-    "svg": "svg/ashtanga-namaskara.svg"
+    "svg": "ashtanga-namaskara.svg"
   },
   {
     "id": "makara-adho-mukha-svanasana",
@@ -1316,7 +1316,7 @@
       "shoulder-strength",
       "inversion-prep"
     ],
-    "svg": "svg/makara-adho-mukha-svanasana.svg"
+    "svg": "makara-adho-mukha-svanasana.svg"
   },
   {
     "id": "uttana-shishosana",
@@ -1330,7 +1330,7 @@
       "shoulder-opener",
       "spine-stretch"
     ],
-    "svg": "svg/uttana-shishosana.svg"
+    "svg": "uttana-shishosana.svg"
   },
   {
     "id": "sasangasana",
@@ -1344,7 +1344,7 @@
       "spinal-stretch",
       "inversion-prep"
     ],
-    "svg": "svg/sasangasana.svg"
+    "svg": "sasangasana.svg"
   },
   {
     "id": "supta-konasana",
@@ -1358,7 +1358,7 @@
       "inversion",
       "hamstring-stretch"
     ],
-    "svg": "svg/supta-konasana.svg"
+    "svg": "supta-konasana.svg"
   },
   {
     "id": "karnapidasana",
@@ -1372,7 +1372,7 @@
       "inversion",
       "spinal-flexion"
     ],
-    "svg": "svg/karnapidasana.svg"
+    "svg": "karnapidasana.svg"
   },
   {
     "id": "salamba-bhujangasana",
@@ -1386,7 +1386,7 @@
       "gentle-backbend",
       "restorative"
     ],
-    "svg": "svg/salamba-bhujangasana.svg"
+    "svg": "salamba-bhujangasana.svg"
   },
   {
     "id": "ardha-bhekasana",
@@ -1400,7 +1400,7 @@
       "quadriceps-stretch",
       "backbend"
     ],
-    "svg": "svg/ardha-bhekasana.svg"
+    "svg": "ardha-bhekasana.svg"
   },
   {
     "id": "bhekasana",
@@ -1414,7 +1414,7 @@
       "quadriceps-stretch",
       "backbend"
     ],
-    "svg": "svg/bhekasana.svg"
+    "svg": "bhekasana.svg"
   },
   {
     "id": "makarasana",
@@ -1428,7 +1428,7 @@
       "restorative",
       "relaxation"
     ],
-    "svg": "svg/makarasana.svg"
+    "svg": "makarasana.svg"
   },
   {
     "id": "purvottanasana",
@@ -1444,7 +1444,7 @@
       "strength",
       "chest-opener"
     ],
-    "svg": "svg/purvottanasana.svg"
+    "svg": "purvottanasana.svg"
   },
   {
     "id": "camatkarasana",
@@ -1460,7 +1460,7 @@
       "backbend",
       "chest-opener"
     ],
-    "svg": "svg/camatkarasana.svg"
+    "svg": "camatkarasana.svg"
   },
   {
     "id": "urdhva-mukha-paschimottanasana",
@@ -1474,7 +1474,7 @@
       "core-strength",
       "hamstring-stretch"
     ],
-    "svg": "svg/urdhva-mukha-paschimottanasana.svg"
+    "svg": "urdhva-mukha-paschimottanasana.svg"
   },
   {
     "id": "ubhaya-padangusthasana",
@@ -1488,7 +1488,7 @@
       "core-strength",
       "balance"
     ],
-    "svg": "svg/ubhaya-padangusthasana.svg"
+    "svg": "ubhaya-padangusthasana.svg"
   },
   {
     "id": "dwi-pada-sirsasana",
@@ -1502,7 +1502,7 @@
       "hip-opener",
       "flexibility"
     ],
-    "svg": "svg/dwi-pada-sirsasana.svg"
+    "svg": "dwi-pada-sirsasana.svg"
   },
   {
     "id": "galavasana",
@@ -1518,7 +1518,7 @@
       "arm-balance",
       "hip-opener"
     ],
-    "svg": "svg/galavasana.svg"
+    "svg": "galavasana.svg"
   },
   {
     "id": "svarga-dvijasana",
@@ -1532,7 +1532,7 @@
       "balance",
       "hip-opener"
     ],
-    "svg": "svg/svarga-dvijasana.svg"
+    "svg": "svarga-dvijasana.svg"
   },
   {
     "id": "utthita-hasta-padangusthasana",
@@ -1546,7 +1546,7 @@
       "balance",
       "hamstring-stretch"
     ],
-    "svg": "svg/utthita-hasta-padangusthasana.svg"
+    "svg": "utthita-hasta-padangusthasana.svg"
   },
   {
     "id": "parivrtta-ardha-chandrasana",
@@ -1560,7 +1560,7 @@
       "balance",
       "twist"
     ],
-    "svg": "svg/parivrtta-ardha-chandrasana.svg"
+    "svg": "parivrtta-ardha-chandrasana.svg"
   },
   {
     "id": "pasasana",
@@ -1574,7 +1574,7 @@
       "twist",
       "balance"
     ],
-    "svg": "svg/pasasana.svg"
+    "svg": "pasasana.svg"
   },
   {
     "id": "jathara-parivartanasana",
@@ -1590,7 +1590,7 @@
       "twist",
       "restorative"
     ],
-    "svg": "svg/jathara-parivartanasana.svg"
+    "svg": "jathara-parivartanasana.svg"
   },
   {
     "id": "padahastasana",
@@ -1604,7 +1604,7 @@
       "hamstring-stretch",
       "wrist-stretch"
     ],
-    "svg": "svg/padahastasana.svg"
+    "svg": "padahastasana.svg"
   },
   {
     "id": "urdhva-hastasana",
@@ -1620,7 +1620,7 @@
       "foundation",
       "chest-opener"
     ],
-    "svg": "svg/urdhva-hastasana.svg"
+    "svg": "urdhva-hastasana.svg"
   },
   {
     "id": "utkata-konasana",
@@ -1636,7 +1636,7 @@
       "hip-opener",
       "strength"
     ],
-    "svg": "svg/utkata-konasana.svg"
+    "svg": "utkata-konasana.svg"
   },
   {
     "id": "skandasana",
@@ -1650,7 +1650,7 @@
       "hip-opener",
       "hamstring-stretch"
     ],
-    "svg": "svg/skandasana.svg"
+    "svg": "skandasana.svg"
   },
   {
     "id": "chakravakasana",
@@ -1666,7 +1666,7 @@
       "core-strength",
       "balance"
     ],
-    "svg": "svg/chakravakasana.svg"
+    "svg": "chakravakasana.svg"
   },
   {
     "id": "eka-pada-rajakapotasana-prep",
@@ -1681,7 +1681,7 @@
       "beginner",
       "hip-opener"
     ],
-    "svg": "svg/eka-pada-rajakapotasana-prep.svg"
+    "svg": "eka-pada-rajakapotasana-prep.svg"
   },
   {
     "id": "matsyendrasana",
@@ -1695,7 +1695,7 @@
       "twist",
       "hip-opener"
     ],
-    "svg": "svg/matsyendrasana.svg"
+    "svg": "matsyendrasana.svg"
   },
   {
     "id": "parivrtta-utkatasana",
@@ -1709,7 +1709,7 @@
       "twist",
       "strength"
     ],
-    "svg": "svg/parivrtta-utkatasana.svg"
+    "svg": "parivrtta-utkatasana.svg"
   },
   {
     "id": "dwi-pada-viparita-dandasana",
@@ -1723,7 +1723,7 @@
       "backbend",
       "inversion"
     ],
-    "svg": "svg/dwi-pada-viparita-dandasana.svg"
+    "svg": "dwi-pada-viparita-dandasana.svg"
   },
   {
     "id": "urdhva-prasarita-eka-padasana",
@@ -1737,7 +1737,7 @@
       "balance",
       "hamstring-stretch"
     ],
-    "svg": "svg/urdhva-prasarita-eka-padasana.svg"
+    "svg": "urdhva-prasarita-eka-padasana.svg"
   },
   {
     "id": "parivrtta-janu-sirsasana",
@@ -1751,7 +1751,7 @@
       "lateral-stretch",
       "twist"
     ],
-    "svg": "svg/parivrtta-janu-sirsasana.svg"
+    "svg": "parivrtta-janu-sirsasana.svg"
   },
   {
     "id": "triang-mukhaikapada-paschimottanasana",
@@ -1765,7 +1765,7 @@
       "hamstring-stretch",
       "asymmetric"
     ],
-    "svg": "svg/triang-mukhaikapada-paschimottanasana.svg"
+    "svg": "triang-mukhaikapada-paschimottanasana.svg"
   },
   {
     "id": "ardha-baddha-padma-paschimottanasana",
@@ -1779,7 +1779,7 @@
       "hip-opener",
       "forward-fold"
     ],
-    "svg": "svg/ardha-baddha-padma-paschimottanasana.svg"
+    "svg": "ardha-baddha-padma-paschimottanasana.svg"
   },
   {
     "id": "utthan-pristhasana",
@@ -1793,7 +1793,7 @@
       "hip-opener",
       "hamstring-stretch"
     ],
-    "svg": "svg/utthan-pristhasana.svg"
+    "svg": "utthan-pristhasana.svg"
   },
   {
     "id": "ardha-hanumanasana",
@@ -1808,7 +1808,7 @@
       "beginner",
       "hamstring-stretch"
     ],
-    "svg": "svg/ardha-hanumanasana.svg"
+    "svg": "ardha-hanumanasana.svg"
   },
   {
     "id": "visvamitrasana",
@@ -1822,7 +1822,7 @@
       "arm-balance",
       "hamstring-stretch"
     ],
-    "svg": "svg/visvamitrasana.svg"
+    "svg": "visvamitrasana.svg"
   },
   {
     "id": "urdhva-prasarita-padasana",
@@ -1837,7 +1837,7 @@
       "beginner",
       "core-strength"
     ],
-    "svg": "svg/urdhva-prasarita-padasana.svg"
+    "svg": "urdhva-prasarita-padasana.svg"
   },
   {
     "id": "matsyasana-padmasana",
@@ -1851,7 +1851,7 @@
       "backbend",
       "hip-opener"
     ],
-    "svg": "svg/matsyasana-padmasana.svg"
+    "svg": "matsyasana-padmasana.svg"
   },
   {
     "id": "prarthanasana",
@@ -1867,7 +1867,7 @@
       "foundation",
       "meditation"
     ],
-    "svg": "svg/prarthanasana.svg"
+    "svg": "prarthanasana.svg"
   },
   {
     "id": "ardha-baddha-padmottanasana",
@@ -1881,7 +1881,7 @@
       "balance",
       "hip-opener"
     ],
-    "svg": "svg/ardha-baddha-padmottanasana.svg"
+    "svg": "ardha-baddha-padmottanasana.svg"
   },
   {
     "id": "yoga-nidrasana",
@@ -1895,7 +1895,7 @@
       "hip-opener",
       "flexibility"
     ],
-    "svg": "svg/yoga-nidrasana.svg"
+    "svg": "yoga-nidrasana.svg"
   },
   {
     "id": "parsva-dhanurasana",
@@ -1909,7 +1909,7 @@
       "backbend",
       "lateral-stretch"
     ],
-    "svg": "svg/parsva-dhanurasana.svg"
+    "svg": "parsva-dhanurasana.svg"
   },
   {
     "id": "supta-trivikramasana",
@@ -1923,7 +1923,7 @@
       "hamstring-stretch",
       "flexibility"
     ],
-    "svg": "svg/supta-trivikramasana.svg"
+    "svg": "supta-trivikramasana.svg"
   },
   {
     "id": "goraksasana",
@@ -1937,7 +1937,7 @@
       "balance",
       "hip-opener"
     ],
-    "svg": "svg/goraksasana.svg"
+    "svg": "goraksasana.svg"
   },
   {
     "id": "eka-pada-viparita-dandasana",
@@ -1951,7 +1951,7 @@
       "backbend",
       "inversion"
     ],
-    "svg": "svg/eka-pada-viparita-dandasana.svg"
+    "svg": "eka-pada-viparita-dandasana.svg"
   },
   {
     "id": "supta-padmasana",
@@ -1965,7 +1965,7 @@
       "hip-opener",
       "restorative"
     ],
-    "svg": "svg/supta-padmasana.svg"
+    "svg": "supta-padmasana.svg"
   },
   {
     "id": "ardha-pincha-mayurasana",
@@ -1979,7 +1979,7 @@
       "core-strength",
       "shoulder-strength"
     ],
-    "svg": "svg/ardha-pincha-mayurasana.svg"
+    "svg": "ardha-pincha-mayurasana.svg"
   },
   {
     "id": "surya-namaskar-a",
@@ -1994,7 +1994,7 @@
       "warm-up",
       "sequence"
     ],
-    "svg": "svg/surya-namaskar-a.svg"
+    "svg": "surya-namaskar-a.svg"
   },
   {
     "id": "surya-namaskar-b",
@@ -2009,7 +2009,7 @@
       "warm-up",
       "sequence"
     ],
-    "svg": "svg/surya-namaskar-b.svg"
+    "svg": "surya-namaskar-b.svg"
   },
   {
     "id": "salabhasana-b",
@@ -2022,7 +2022,7 @@
       "intermediate",
       "back-strengthening"
     ],
-    "svg": "svg/salabhasana-b.svg"
+    "svg": "salabhasana-b.svg"
   },
   {
     "id": "supta-padangusthasana-b",
@@ -2036,7 +2036,7 @@
       "hip-opener",
       "hamstring-stretch"
     ],
-    "svg": "svg/supta-padangusthasana-b.svg"
+    "svg": "supta-padangusthasana-b.svg"
   },
   {
     "id": "savasana-bolster",
@@ -2050,7 +2050,7 @@
       "restorative",
       "relaxation"
     ],
-    "svg": "svg/savasana-bolster.svg"
+    "svg": "savasana-bolster.svg"
   },
   {
     "id": "naukasana",
@@ -2063,7 +2063,7 @@
       "intermediate",
       "core-strength"
     ],
-    "svg": "svg/naukasana.svg"
+    "svg": "naukasana.svg"
   },
   {
     "id": "utthita-parsvasahita",
@@ -2077,7 +2077,7 @@
       "balance",
       "hip-opener"
     ],
-    "svg": "svg/utthita-parsvasahita.svg"
+    "svg": "utthita-parsvasahita.svg"
   },
   {
     "id": "ashwa-sanchalanasana",
@@ -2091,6 +2091,6 @@
       "hip-opener",
       "sun-salutation"
     ],
-    "svg": "svg/ashwa-sanchalanasana.svg"
+    "svg": "ashwa-sanchalanasana.svg"
   }
 ]
