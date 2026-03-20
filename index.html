@@ -872,7 +872,7 @@ body {
 
     try {
       const res = await fetch('poses.json');
-      allPoses = await res.json();
+      allPoses = (await res.json()).map(p => ({...p, zh: p.chinese, en: p.english}));
     } catch(e) {
       poseGrid.innerHTML = '<div class="empty-library"><p>无法加载体式数据</p></div>';
       return;
